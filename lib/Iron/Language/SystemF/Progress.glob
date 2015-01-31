@@ -1,0 +1,46 @@
+DIGEST c95faa19189b5e19ab923a8831c767c3
+FIron.Language.SystemF.Progress
+R16:41 Iron.Language.SystemF.Step <> <> lib
+R59:91 Iron.Language.SystemF.SubstExpExp <> <> lib
+R109:142 Iron.Language.SystemF.SubstTypeExp <> <> lib
+R160:194 Iron.Language.SystemF.SubstTypeType <> <> lib
+R212:240 Iron.Language.SystemF.TyJudge <> <> lib
+prf 322:329 <> progress
+R388:392 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R413:413 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R381:385 Iron.Language.SystemF.Exp <> value ind
+R387:387 Iron.Language.SystemF.Progress <> x var
+R393:399 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R402:403 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R404:407 Iron.Language.SystemF.Step <> STEP ind
+R409:409 Iron.Language.SystemF.Progress <> x var
+R349:355 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R357:358 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R359:362 Iron.Language.SystemF.TyJudge <> TYPE ind
+R372:372 Iron.Language.SystemF.Progress <> x var
+R368:370 Coq.Init.Datatypes <> nil constr
+R364:366 Coq.Init.Datatypes <> nil constr
+R530:537 Iron.Language.SystemF.TyJudge <> type_wfX thm
+R530:537 Iron.Language.SystemF.TyJudge <> type_wfX thm
+R705:711 Iron.Language.SystemF.Exp <> substTX def
+R705:711 Iron.Language.SystemF.Exp <> substTX def
+R729:736 Iron.Language.SystemF.Step <> ESLAMAPP constr
+R729:736 Iron.Language.SystemF.Step <> ESLAMAPP constr
+R820:823 Iron.Language.SystemF.Exp <> XAPP constr
+R820:823 Iron.Language.SystemF.Exp <> XAPP constr
+R842:847 Iron.Language.SystemF.Step <> ESAPP1 constr
+R842:847 Iron.Language.SystemF.Step <> ESAPP1 constr
+R885:892 Iron.Language.SystemF.TyJudge <> type_wfX thm
+R885:892 Iron.Language.SystemF.TyJudge <> type_wfX thm
+R1121:1127 Iron.Language.SystemF.Exp <> substXX def
+R1121:1127 Iron.Language.SystemF.Exp <> substXX def
+R1145:1152 Iron.Language.SystemF.Step <> ESLamApp constr
+R1145:1152 Iron.Language.SystemF.Step <> ESLamApp constr
+R1222:1225 Iron.Language.SystemF.Exp <> XApp constr
+R1222:1225 Iron.Language.SystemF.Exp <> XApp constr
+R1246:1251 Iron.Language.SystemF.Step <> ESApp2 constr
+R1246:1251 Iron.Language.SystemF.Step <> ESApp2 constr
+R1316:1319 Iron.Language.SystemF.Exp <> XApp constr
+R1316:1319 Iron.Language.SystemF.Exp <> XApp constr
+R1339:1344 Iron.Language.SystemF.Step <> ESApp1 constr
+R1339:1344 Iron.Language.SystemF.Step <> ESApp1 constr

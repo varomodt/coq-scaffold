@@ -1,0 +1,47 @@
+DIGEST 83782a1e8097c5b9a0654a4342c6c88e
+FIron.Language.Simple.Preservation
+R16:40 Iron.Language.Simple.Step <> <> lib
+R58:89 Iron.Language.Simple.SubstExpExp <> <> lib
+R107:129 Iron.Language.Simple.Ty <> <> lib
+prf 257:268 <> preservation
+R324:327 Iron.Language.Simple.Ty <> TYPE ind
+R336:336 Iron.Language.Simple.Preservation <> t var
+R333:334 Iron.Language.Simple.Preservation <> x' var
+R329:331 Coq.Init.Datatypes <> nil constr
+R310:313 Iron.Language.Simple.Step <> STEP ind
+R317:318 Iron.Language.Simple.Preservation <> x' var
+R315:315 Iron.Language.Simple.Preservation <> x var
+R292:295 Iron.Language.Simple.Ty <> TYPE ind
+R304:304 Iron.Language.Simple.Preservation <> t var
+R301:301 Iron.Language.Simple.Preservation <> x var
+R297:299 Coq.Init.Datatypes <> nil constr
+R497:509 Iron.Language.Simple.SubstExpExp <> subst_exp_exp thm
+prf 645:662 <> preservation_steps
+R726:729 Iron.Language.Simple.Ty <> TYPE ind
+R738:739 Iron.Language.Simple.Preservation <> t1 var
+R735:736 Iron.Language.Simple.Preservation <> x2 var
+R731:733 Coq.Init.Datatypes <> nil constr
+R707:711 Iron.Language.Simple.Step <> STEPS ind
+R719:720 Iron.Language.Simple.Preservation <> x2 var
+R716:717 Iron.Language.Simple.Preservation <> x1 var
+R688:691 Iron.Language.Simple.Ty <> TYPE ind
+R700:701 Iron.Language.Simple.Preservation <> t1 var
+R697:698 Iron.Language.Simple.Preservation <> x1 var
+R693:695 Coq.Init.Datatypes <> nil constr
+R799:810 Iron.Language.Simple.Preservation <> preservation thm
+R799:810 Iron.Language.Simple.Preservation <> preservation thm
+R799:810 Iron.Language.Simple.Preservation <> preservation thm
+prf 1003:1021 <> preservation_stepsl
+R1085:1088 Iron.Language.Simple.Ty <> TYPE ind
+R1097:1098 Iron.Language.Simple.Preservation <> t1 var
+R1094:1095 Iron.Language.Simple.Preservation <> x2 var
+R1090:1092 Coq.Init.Datatypes <> nil constr
+R1066:1071 Iron.Language.Simple.Step <> STEPSL ind
+R1078:1079 Iron.Language.Simple.Preservation <> x2 var
+R1075:1076 Iron.Language.Simple.Preservation <> x1 var
+R1047:1050 Iron.Language.Simple.Ty <> TYPE ind
+R1059:1060 Iron.Language.Simple.Preservation <> t1 var
+R1056:1057 Iron.Language.Simple.Preservation <> x1 var
+R1052:1054 Coq.Init.Datatypes <> nil constr
+R1158:1169 Iron.Language.Simple.Preservation <> preservation thm
+R1158:1169 Iron.Language.Simple.Preservation <> preservation thm

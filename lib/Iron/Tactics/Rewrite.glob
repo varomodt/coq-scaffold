@@ -1,0 +1,11 @@
+DIGEST 31b21523ea764e9ce0c828b3762f8734
+FIron.Tactics.Rewrite
+R16:32 Iron.Tactics.Have <> <> lib
+R135:136 Coq.Init.Logic <> eq ind
+R135:136 Coq.Init.Logic <> eq ind
+R213:214 Coq.Init.Logic <> eq ind
+R213:214 Coq.Init.Logic <> eq ind
+R277:278 Coq.Init.Logic <> eq ind
+R277:278 Coq.Init.Logic <> eq ind
+R341:342 Coq.Init.Logic <> eq ind
+R341:342 Coq.Init.Logic <> eq ind

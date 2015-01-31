@@ -1,0 +1,159 @@
+DIGEST 983a75c7b97d401576a21e683010cfc1
+FIron.Language.SimpleData.Exp
+R16:47 Iron.Language.SimpleData.ExpBase <> <> lib
+R65:96 Iron.Language.SimpleData.ExpLift <> <> lib
+R114:146 Iron.Language.SimpleData.ExpSubst <> <> lib
+R164:194 Iron.Language.SimpleData.ExpAlt <> <> lib
+ind 291:294 <> wnfX
+constr 316:323 <> Wnf_XVar
+constr 363:370 <> Wnf_XLam
+constr 417:424 <> Wnf_XCon
+R298:300 Iron.Language.SimpleData.ExpBase <> exp ind
+R345:348 Iron.Language.SimpleData.Exp <> wnfX ind
+R351:354 Iron.Language.SimpleData.ExpBase <> XVar constr
+R356:356 Iron.Language.SimpleData.Exp <> i var
+R395:398 Iron.Language.SimpleData.Exp <> wnfX ind
+R401:404 Iron.Language.SimpleData.ExpBase <> XLam constr
+R409:410 Iron.Language.SimpleData.Exp <> x2 var
+R406:407 Iron.Language.SimpleData.Exp <> t1 var
+R472:475 Iron.Language.SimpleData.Exp <> wnfX ind
+R478:481 Iron.Language.SimpleData.ExpBase <> XCon constr
+R486:487 Iron.Language.SimpleData.Exp <> xs var
+R483:484 Iron.Language.SimpleData.Exp <> dc var
+R451:456 Coq.Lists.List <> Forall ind
+R463:464 Iron.Language.SimpleData.Exp <> xs var
+R458:461 Iron.Language.SimpleData.Exp <> wnfX ind
+R509:512 Iron.Language.SimpleData.Exp <> wnfX ind
+ind 597:599 <> wfX
+constr 630:637 <> WfX_XVar
+constr 721:728 <> WfX_XLam
+constr 800:807 <> WfX_XApp
+constr 891:898 <> WfX_XCon
+constr 977:985 <> WfX_XCase
+ind 1090:1092 <> wfA
+constr 1123:1130 <> WfA_AAlt
+R612:614 Iron.Language.SimpleData.ExpBase <> exp ind
+R603:607 Iron.Language.SimpleData.Ty <> tyenv def
+R1105:1107 Iron.Language.SimpleData.ExpBase <> alt ind
+R1096:1100 Iron.Language.SimpleData.Ty <> tyenv def
+R700:702 Iron.Language.SimpleData.Exp <> wfX ind
+R708:711 Iron.Language.SimpleData.ExpBase <> XVar constr
+R713:713 Iron.Language.SimpleData.Exp <> i var
+R704:705 Iron.Language.SimpleData.Exp <> te var
+R665:671 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R673:674 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R683:685 Coq.Init.Logic <> :type_scope:x_'='_x not
+R675:677 Iron.Data.List.Base <> get def
+R681:682 Iron.Language.SimpleData.Exp <> te var
+R679:679 Iron.Language.SimpleData.Exp <> i var
+R686:689 Coq.Init.Datatypes <> Some constr
+R778:780 Iron.Language.SimpleData.Exp <> wfX ind
+R786:789 Iron.Language.SimpleData.ExpBase <> XLam constr
+R793:793 Iron.Language.SimpleData.Exp <> x var
+R791:791 Iron.Language.SimpleData.Exp <> t var
+R782:783 Iron.Language.SimpleData.Exp <> te var
+R756:758 Iron.Language.SimpleData.Exp <> wfX ind
+R770:770 Iron.Language.SimpleData.Exp <> x var
+R763:766 Iron.Data.List.Base <> ::x_':>'_x not
+R767:767 Iron.Language.SimpleData.Exp <> t var
+R761:762 Iron.Language.SimpleData.Exp <> te var
+R867:869 Iron.Language.SimpleData.Exp <> wfX ind
+R875:878 Iron.Language.SimpleData.ExpBase <> XApp constr
+R883:884 Iron.Language.SimpleData.Exp <> x2 var
+R880:881 Iron.Language.SimpleData.Exp <> x1 var
+R871:872 Iron.Language.SimpleData.Exp <> te var
+R851:853 Iron.Language.SimpleData.Exp <> wfX ind
+R858:859 Iron.Language.SimpleData.Exp <> x2 var
+R855:856 Iron.Language.SimpleData.Exp <> te var
+R838:840 Iron.Language.SimpleData.Exp <> wfX ind
+R845:846 Iron.Language.SimpleData.Exp <> x1 var
+R842:843 Iron.Language.SimpleData.Exp <> te var
+R953:955 Iron.Language.SimpleData.Exp <> wfX ind
+R961:964 Iron.Language.SimpleData.ExpBase <> XCon constr
+R969:970 Iron.Language.SimpleData.Exp <> xs var
+R966:967 Iron.Language.SimpleData.Exp <> dc var
+R957:958 Iron.Language.SimpleData.Exp <> te var
+R928:933 Coq.Lists.List <> Forall ind
+R944:945 Iron.Language.SimpleData.Exp <> xs var
+R936:938 Iron.Language.SimpleData.Exp <> wfX ind
+R940:941 Iron.Language.SimpleData.Exp <> te var
+R1059:1061 Iron.Language.SimpleData.Exp <> wfX ind
+R1067:1071 Iron.Language.SimpleData.ExpBase <> XCase constr
+R1075:1078 Iron.Language.SimpleData.Exp <> alts var
+R1073:1073 Iron.Language.SimpleData.Exp <> x var
+R1063:1064 Iron.Language.SimpleData.Exp <> te var
+R1032:1037 Coq.Lists.List <> Forall ind
+R1048:1051 Iron.Language.SimpleData.Exp <> alts var
+R1040:1042 Iron.Language.SimpleData.Exp <> wfA ind
+R1044:1045 Iron.Language.SimpleData.Exp <> te var
+R1016:1018 Iron.Language.SimpleData.Exp <> wfX ind
+R1023:1023 Iron.Language.SimpleData.Exp <> x var
+R1020:1021 Iron.Language.SimpleData.Exp <> te var
+R1265:1267 Iron.Language.SimpleData.Exp <> wfA ind
+R1273:1276 Iron.Language.SimpleData.ExpBase <> AAlt constr
+R1284:1284 Iron.Language.SimpleData.Exp <> x var
+R1281:1282 Iron.Language.SimpleData.Exp <> ts var
+R1278:1279 Iron.Language.SimpleData.Exp <> dc var
+R1269:1270 Iron.Language.SimpleData.Exp <> te var
+R1238:1240 Iron.Language.SimpleData.Exp <> wfX ind
+R1257:1257 Iron.Language.SimpleData.Exp <> x var
+R1245:1248 Iron.Data.List.Base <> ::x_'><'_x not
+R1249:1254 Iron.Language.SimpleData.Exp <> tsArgs var
+R1243:1244 Iron.Language.SimpleData.Exp <> te var
+R1196:1198 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1180:1189 Iron.Language.SimpleData.Def <> getDataDef def
+R1194:1195 Iron.Language.SimpleData.Exp <> ds var
+R1191:1192 Iron.Language.SimpleData.Exp <> dc var
+R1199:1202 Coq.Init.Datatypes <> Some constr
+R1205:1211 Iron.Language.SimpleData.Def <> DefData constr
+R1223:1229 Iron.Language.SimpleData.Exp <> tResult var
+R1216:1221 Iron.Language.SimpleData.Exp <> tsArgs var
+R1213:1214 Iron.Language.SimpleData.Exp <> dc var
+R1307:1309 Iron.Language.SimpleData.Exp <> wfX ind
+R1330:1332 Iron.Language.SimpleData.Exp <> wfA ind
+def 1417:1423 <> closedX
+R1430:1432 Iron.Language.SimpleData.ExpBase <> exp ind
+R1446:1448 Iron.Language.SimpleData.Exp <> wfX ind
+R1454:1455 Iron.Language.SimpleData.Exp <> xx var
+R1450:1452 Coq.Init.Datatypes <> nil constr
+R1470:1476 Iron.Language.SimpleData.Exp <> closedX def
+ind 1559:1563 <> value
+constr 1585:1589 <> Value
+R1567:1569 Iron.Language.SimpleData.ExpBase <> exp ind
+R1642:1646 Iron.Language.SimpleData.Exp <> value ind
+R1648:1649 Iron.Language.SimpleData.Exp <> xx var
+R1625:1631 Iron.Language.SimpleData.Exp <> closedX def
+R1633:1634 Iron.Language.SimpleData.Exp <> xx var
+R1614:1617 Iron.Language.SimpleData.Exp <> wnfX ind
+R1619:1620 Iron.Language.SimpleData.Exp <> xx var
+R1670:1674 Iron.Language.SimpleData.Exp <> value ind
+prf 1684:1693 <> value_wnfX
+R1722:1725 Iron.Language.SimpleData.Exp <> wnfX ind
+R1727:1728 Iron.Language.SimpleData.Exp <> xx var
+R1710:1714 Iron.Language.SimpleData.Exp <> value ind
+R1716:1717 Iron.Language.SimpleData.Exp <> xx var
+R1782:1791 Iron.Language.SimpleData.Exp <> value_wnfX thm
+prf 1801:1813 <> value_closedX
+R1842:1848 Iron.Language.SimpleData.Exp <> closedX def
+R1850:1851 Iron.Language.SimpleData.Exp <> xx var
+R1830:1834 Iron.Language.SimpleData.Exp <> value ind
+R1836:1837 Iron.Language.SimpleData.Exp <> xx var
+R1905:1917 Iron.Language.SimpleData.Exp <> value_closedX thm
+prf 1927:1942 <> value_wnfXs_XCon
+R1985:1990 Coq.Lists.List <> Forall ind
+R1997:1998 Iron.Language.SimpleData.Exp <> xs var
+R1992:1995 Iron.Language.SimpleData.Exp <> wnfX ind
+R1963:1967 Iron.Language.SimpleData.Exp <> value ind
+R1970:1973 Iron.Language.SimpleData.ExpBase <> XCon constr
+R1978:1979 Iron.Language.SimpleData.Exp <> xs var
+R1975:1976 Iron.Language.SimpleData.Exp <> dc var
+R2064:2079 Iron.Language.SimpleData.Exp <> value_wnfXs_XCon thm
+prf 2089:2107 <> value_closedXs_XCon
+R2150:2155 Coq.Lists.List <> Forall ind
+R2165:2166 Iron.Language.SimpleData.Exp <> xs var
+R2157:2163 Iron.Language.SimpleData.Exp <> closedX def
+R2128:2132 Iron.Language.SimpleData.Exp <> value ind
+R2135:2138 Iron.Language.SimpleData.ExpBase <> XCon constr
+R2143:2144 Iron.Language.SimpleData.Exp <> xs var
+R2140:2141 Iron.Language.SimpleData.Exp <> dc var
+R2232:2250 Iron.Language.SimpleData.Exp <> value_closedXs_XCon thm

@@ -1,0 +1,15 @@
+DIGEST 757022f6b1d1f901b16e452e9133b69b
+FIron.Language.SystemF2Data.Kind.Base
+R16:46 Iron.Language.SystemF2Data.Base <> <> lib
+ind 73:74 <> ki
+constr 89:93 <> KStar
+constr 105:108 <> KFun
+R99:100 Iron.Language.SystemF2Data.Kind.Base <> ki ind
+R127:128 Iron.Language.SystemF2Data.Kind.Base <> ki ind
+R121:122 Iron.Language.SystemF2Data.Kind.Base <> ki ind
+R115:116 Iron.Language.SystemF2Data.Kind.Base <> ki ind
+R149:150 Iron.Language.SystemF2Data.Kind.Base <> ki ind
+def 190:194 <> kienv
+R199:202 Coq.Init.Datatypes <> list ind
+R204:205 Iron.Language.SystemF2Data.Kind.Base <> ki ind
+R220:224 Iron.Language.SystemF2Data.Kind.Base <> kienv def

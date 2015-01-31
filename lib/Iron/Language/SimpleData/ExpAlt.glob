@@ -1,0 +1,64 @@
+DIGEST 0aad2ed91336b6cba20708283fd86f1c
+FIron.Language.SimpleData.ExpAlt
+R16:47 Iron.Language.SimpleData.ExpBase <> <> lib
+def 111:117 <> dcOfAlt
+R124:126 Iron.Language.SimpleData.ExpBase <> alt ind
+R131:137 Iron.Language.SimpleData.Def <> datacon ind
+R149:150 Iron.Language.SimpleData.ExpAlt <> aa var
+R161:164 Iron.Language.SimpleData.ExpBase <> AAlt constr
+R197:203 Iron.Language.SimpleData.ExpAlt <> dcOfAlt def
+def 282:287 <> getAlt
+R294:300 Iron.Language.SimpleData.Def <> datacon ind
+R310:313 Coq.Init.Datatypes <> list ind
+R315:317 Iron.Language.SimpleData.ExpBase <> alt ind
+R353:358 Coq.Init.Datatypes <> option ind
+R360:362 Iron.Language.SimpleData.ExpBase <> alt ind
+R374:377 Iron.Language.SimpleData.ExpAlt <> alts var
+R389:391 Coq.Init.Datatypes <> nil constr
+R397:400 Coq.Init.Datatypes <> None constr
+R424:427 Coq.Init.Datatypes <> :list_scope:x_'::'_x not
+R407:410 Iron.Language.SimpleData.ExpBase <> AAlt constr
+R441:451 Iron.Language.SimpleData.Def <> datacon_beq def
+R453:454 Iron.Language.SimpleData.ExpAlt <> dc var
+R505:510 Iron.Language.SimpleData.ExpAlt <> getAlt def
+R512:513 Iron.Language.SimpleData.ExpAlt <> dc var
+R470:473 Coq.Init.Datatypes <> Some constr
+R476:479 Iron.Language.SimpleData.ExpBase <> AAlt constr
+prf 628:636 <> getAlt_in
+R695:696 Coq.Lists.List <> In def
+R702:705 Iron.Language.SimpleData.ExpAlt <> alts var
+R698:700 Iron.Language.SimpleData.ExpAlt <> alt var
+R679:681 Coq.Init.Logic <> :type_scope:x_'='_x not
+R665:670 Iron.Language.SimpleData.ExpAlt <> getAlt def
+R675:678 Iron.Language.SimpleData.ExpAlt <> alts var
+R672:673 Iron.Language.SimpleData.ExpAlt <> dc var
+R682:685 Coq.Init.Datatypes <> Some constr
+R687:689 Iron.Language.SimpleData.ExpAlt <> alt var
+R806:816 Iron.Language.SimpleData.Def <> datacon_beq def
+R806:816 Iron.Language.SimpleData.Def <> datacon_beq def
+R850:863 Iron.Language.SimpleData.Def <> datacon_beq_eq thm
+R850:863 Iron.Language.SimpleData.Def <> datacon_beq_eq thm
+prf 1074:1086 <> getAlt_exists
+R1139:1145 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_x_','_x not
+R1152:1152 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_x_','_x not
+R1154:1155 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_x_','_x not
+R1169:1171 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1156:1161 Iron.Language.SimpleData.ExpAlt <> getAlt def
+R1165:1168 Iron.Language.SimpleData.ExpAlt <> alts var
+R1163:1163 Iron.Language.SimpleData.ExpAlt <> d var
+R1172:1175 Coq.Init.Datatypes <> Some constr
+R1178:1181 Iron.Language.SimpleData.ExpBase <> AAlt constr
+R1183:1183 Iron.Language.SimpleData.ExpAlt <> d var
+R1110:1111 Coq.Lists.List <> In def
+R1116:1118 Coq.Lists.List <> map def
+R1128:1131 Iron.Language.SimpleData.ExpAlt <> alts var
+R1120:1126 Iron.Language.SimpleData.ExpAlt <> dcOfAlt def
+R1113:1113 Iron.Language.SimpleData.ExpAlt <> d var
+R1309:1319 Iron.Language.SimpleData.Def <> datacon_beq def
+R1309:1319 Iron.Language.SimpleData.Def <> datacon_beq def
+R1367:1383 Iron.Language.SimpleData.Def <> datacon_beq_false thm
+R1367:1383 Iron.Language.SimpleData.Def <> datacon_beq_false thm
+R1457:1467 Iron.Language.SimpleData.Def <> datacon_beq def
+R1457:1467 Iron.Language.SimpleData.Def <> datacon_beq def
+R1487:1500 Iron.Language.SimpleData.Def <> datacon_beq_eq thm
+R1487:1500 Iron.Language.SimpleData.Def <> datacon_beq_eq thm

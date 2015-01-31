@@ -1,0 +1,110 @@
+DIGEST 20cccd909bb854112ddb4f41abd16d9f
+FIron.Language.SystemF.KiJudge
+R16:39 Iron.Language.SystemF.Ty <> <> lib
+R57:80 Iron.Language.SystemF.Ki <> <> lib
+ind 386:389 <> KIND
+constr 425:429 <> KICon
+constr 483:487 <> KIVar
+constr 563:570 <> KIForall
+constr 680:684 <> KIFun
+R408:409 Iron.Language.SystemF.Ki <> ki ind
+R402:403 Iron.Language.SystemF.Ty <> ty ind
+R393:397 Iron.Language.SystemF.Ki <> kienv def
+R456:459 Iron.Language.SystemF.KiJudge <> KIND ind
+R473:477 Iron.Language.SystemF.Ki <> KStar constr
+R465:468 Iron.Language.SystemF.Ty <> TCon constr
+R470:470 Iron.Language.SystemF.KiJudge <> c var
+R461:462 Iron.Language.SystemF.KiJudge <> ke var
+R540:543 Iron.Language.SystemF.KiJudge <> KIND ind
+R557:557 Iron.Language.SystemF.KiJudge <> k var
+R549:552 Iron.Language.SystemF.Ty <> TVar constr
+R554:554 Iron.Language.SystemF.KiJudge <> i var
+R545:546 Iron.Language.SystemF.KiJudge <> ke var
+R524:526 Coq.Init.Logic <> :type_scope:x_'='_x not
+R515:517 Iron.Data.List.Base <> get def
+R522:523 Iron.Language.SystemF.KiJudge <> ke var
+R520:520 Iron.Language.SystemF.KiJudge <> i var
+R527:530 Coq.Init.Datatypes <> Some constr
+R532:532 Iron.Language.SystemF.KiJudge <> k var
+R639:642 Iron.Language.SystemF.KiJudge <> KIND ind
+R670:674 Iron.Language.SystemF.Ki <> KStar constr
+R659:665 Iron.Language.SystemF.Ty <> TForall constr
+R667:667 Iron.Language.SystemF.KiJudge <> t var
+R644:645 Iron.Language.SystemF.KiJudge <> ke var
+R596:599 Iron.Language.SystemF.KiJudge <> KIND ind
+R627:631 Iron.Language.SystemF.Ki <> KStar constr
+R615:615 Iron.Language.SystemF.KiJudge <> t var
+R604:607 Iron.Data.List.Base <> ::x_':>'_x not
+R608:612 Iron.Language.SystemF.Ki <> KStar constr
+R602:603 Iron.Language.SystemF.KiJudge <> ke var
+R761:764 Iron.Language.SystemF.KiJudge <> KIND ind
+R782:786 Iron.Language.SystemF.Ki <> KStar constr
+R770:773 Iron.Language.SystemF.Ty <> TFun constr
+R778:779 Iron.Language.SystemF.KiJudge <> t2 var
+R775:776 Iron.Language.SystemF.KiJudge <> t1 var
+R766:767 Iron.Language.SystemF.KiJudge <> ke var
+R738:741 Iron.Language.SystemF.KiJudge <> KIND ind
+R749:753 Iron.Language.SystemF.Ki <> KStar constr
+R746:747 Iron.Language.SystemF.KiJudge <> t2 var
+R743:744 Iron.Language.SystemF.KiJudge <> ke var
+R715:718 Iron.Language.SystemF.KiJudge <> KIND ind
+R726:730 Iron.Language.SystemF.Ki <> KStar constr
+R723:724 Iron.Language.SystemF.KiJudge <> t1 var
+R720:721 Iron.Language.SystemF.KiJudge <> ke var
+R808:811 Iron.Language.SystemF.KiJudge <> KIND ind
+prf 934:941 <> kind_wfT
+R981:983 Iron.Language.SystemF.Ty <> wfT def
+R989:989 Iron.Language.SystemF.KiJudge <> t var
+R986:987 Iron.Language.SystemF.KiJudge <> ke var
+R965:968 Iron.Language.SystemF.KiJudge <> KIND ind
+R975:975 Iron.Language.SystemF.KiJudge <> k var
+R973:973 Iron.Language.SystemF.KiJudge <> t var
+R970:971 Iron.Language.SystemF.KiJudge <> ke var
+prf 1163:1182 <> kind_empty_is_closed
+R1221:1227 Iron.Language.SystemF.Ty <> closedT def
+R1229:1229 Iron.Language.SystemF.KiJudge <> t var
+R1203:1206 Iron.Language.SystemF.KiJudge <> KIND ind
+R1214:1214 Iron.Language.SystemF.KiJudge <> k var
+R1212:1212 Iron.Language.SystemF.KiJudge <> t var
+R1208:1210 Coq.Init.Datatypes <> nil constr
+R1255:1261 Iron.Language.SystemF.Ty <> closedT def
+R1271:1278 Iron.Language.SystemF.KiJudge <> kind_wfT thm
+R1271:1278 Iron.Language.SystemF.KiJudge <> kind_wfT thm
+prf 1469:1481 <> liftTT_insert
+R1529:1532 Iron.Language.SystemF.KiJudge <> KIND ind
+R1566:1567 Iron.Language.SystemF.KiJudge <> k1 var
+R1553:1558 Iron.Language.SystemF.Ty <> liftTT def
+R1563:1563 Iron.Language.SystemF.KiJudge <> t var
+R1560:1561 Iron.Language.SystemF.KiJudge <> ix var
+R1535:1540 Iron.Data.List.Insert <> insert def
+R1548:1549 Iron.Language.SystemF.KiJudge <> ke var
+R1545:1546 Iron.Language.SystemF.KiJudge <> k2 var
+R1542:1543 Iron.Language.SystemF.KiJudge <> ix var
+R1512:1515 Iron.Language.SystemF.KiJudge <> KIND ind
+R1522:1523 Iron.Language.SystemF.KiJudge <> k1 var
+R1520:1520 Iron.Language.SystemF.KiJudge <> t var
+R1517:1518 Iron.Language.SystemF.KiJudge <> ke var
+R1716:1723 Iron.Language.SystemF.KiJudge <> KIForall constr
+R1716:1723 Iron.Language.SystemF.KiJudge <> KIForall constr
+R1736:1748 Iron.Data.List.Insert <> insert_rewind thm
+R1736:1748 Iron.Data.List.Insert <> insert_rewind thm
+prf 1860:1872 <> liftTT_weaken
+R1936:1939 Iron.Language.SystemF.KiJudge <> KIND ind
+R1965:1966 Iron.Language.SystemF.KiJudge <> k1 var
+R1953:1958 Iron.Language.SystemF.Ty <> liftTT def
+R1962:1962 Iron.Language.SystemF.KiJudge <> t var
+R1944:1947 Iron.Data.List.Base <> ::x_':>'_x not
+R1948:1949 Iron.Language.SystemF.KiJudge <> k2 var
+R1942:1943 Iron.Language.SystemF.KiJudge <> ke var
+R1900:1903 Iron.Language.SystemF.KiJudge <> KIND ind
+R1929:1930 Iron.Language.SystemF.KiJudge <> k1 var
+R1917:1917 Iron.Language.SystemF.KiJudge <> t var
+R1906:1907 Iron.Language.SystemF.KiJudge <> ke var
+R2002:2004 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1996:1999 Iron.Data.List.Base <> ::x_':>'_x not
+R2005:2010 Iron.Data.List.Insert <> insert def
+R2002:2004 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1996:1999 Iron.Data.List.Base <> ::x_':>'_x not
+R2005:2010 Iron.Data.List.Insert <> insert def
+R2070:2082 Iron.Language.SystemF.KiJudge <> liftTT_insert thm
+R2070:2082 Iron.Language.SystemF.KiJudge <> liftTT_insert thm

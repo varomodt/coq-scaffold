@@ -1,0 +1,90 @@
+DIGEST a678b57a4756d6082a559206ea21593b
+FIron.Language.SystemF2Store.ExpDataCon
+R16:47 Iron.Language.SystemF2Store.Base <> <> lib
+ind 205:211 <> datacon
+constr 226:232 <> DataCon
+R251:257 Iron.Language.SystemF2Store.ExpDataCon <> datacon ind
+R244:246 Coq.Init.Datatypes <> nat ind
+R237:239 Coq.Init.Datatypes <> nat ind
+R278:284 Iron.Language.SystemF2Store.ExpDataCon <> datacon ind
+def 298:308 <> datacon_beq
+R331:332 Iron.Language.SystemF2Store.ExpDataCon <> t2 var
+R327:328 Iron.Language.SystemF2Store.ExpDataCon <> t1 var
+R343:349 Iron.Language.SystemF2Store.ExpDataCon <> DataCon constr
+R360:366 Iron.Language.SystemF2Store.ExpDataCon <> DataCon constr
+R397:400 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R382:388 Coq.Arith.EqNat <> beq_nat def
+R401:407 Coq.Arith.EqNat <> beq_nat def
+prf 431:448 <> beq_true_and_split
+R500:503 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R495:497 Coq.Init.Logic <> :type_scope:x_'='_x not
+R491:494 Coq.Init.Datatypes <> true constr
+R498:499 Iron.Language.SystemF2Store.ExpDataCon <> a1 var
+R508:510 Coq.Init.Logic <> :type_scope:x_'='_x not
+R504:507 Coq.Init.Datatypes <> true constr
+R511:512 Iron.Language.SystemF2Store.ExpDataCon <> a2 var
+R475:477 Coq.Init.Logic <> :type_scope:x_'='_x not
+R471:474 Coq.Init.Datatypes <> true constr
+R480:483 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R478:479 Iron.Language.SystemF2Store.ExpDataCon <> a1 var
+R484:485 Iron.Language.SystemF2Store.ExpDataCon <> a2 var
+prf 568:586 <> beq_false_and_split
+R640:643 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R635:637 Coq.Init.Logic <> :type_scope:x_'='_x not
+R630:634 Coq.Init.Datatypes <> false constr
+R638:639 Iron.Language.SystemF2Store.ExpDataCon <> a1 var
+R649:651 Coq.Init.Logic <> :type_scope:x_'='_x not
+R644:648 Coq.Init.Datatypes <> false constr
+R652:653 Iron.Language.SystemF2Store.ExpDataCon <> a2 var
+R614:616 Coq.Init.Logic <> :type_scope:x_'='_x not
+R609:613 Coq.Init.Datatypes <> false constr
+R619:622 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R617:618 Iron.Language.SystemF2Store.ExpDataCon <> a1 var
+R623:624 Iron.Language.SystemF2Store.ExpDataCon <> a2 var
+prf 756:769 <> datacon_beq_eq
+R826:828 Coq.Init.Logic <> :type_scope:x_'='_x not
+R824:825 Iron.Language.SystemF2Store.ExpDataCon <> dc var
+R829:831 Iron.Language.SystemF2Store.ExpDataCon <> dc' var
+R798:800 Coq.Init.Logic <> :type_scope:x_'='_x not
+R794:797 Coq.Init.Datatypes <> true constr
+R801:811 Iron.Language.SystemF2Store.ExpDataCon <> datacon_beq def
+R816:818 Iron.Language.SystemF2Store.ExpDataCon <> dc' var
+R813:814 Iron.Language.SystemF2Store.ExpDataCon <> dc var
+R900:917 Iron.Language.SystemF2Store.ExpDataCon <> beq_true_and_split thm
+R900:917 Iron.Language.SystemF2Store.ExpDataCon <> beq_true_and_split thm
+R944:953 Coq.Arith.EqNat <> beq_nat_eq def
+R944:953 Coq.Arith.EqNat <> beq_nat_eq def
+R970:979 Coq.Arith.EqNat <> beq_nat_eq def
+R970:979 Coq.Arith.EqNat <> beq_nat_eq def
+prf 1055:1071 <> datacon_beq_false
+R1123:1127 Coq.Init.Logic <> False ind
+R1097:1099 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1092:1096 Coq.Init.Datatypes <> false constr
+R1100:1110 Iron.Language.SystemF2Store.ExpDataCon <> datacon_beq def
+R1115:1116 Iron.Language.SystemF2Store.ExpDataCon <> dc var
+R1112:1113 Iron.Language.SystemF2Store.ExpDataCon <> dc var
+R1184:1202 Iron.Language.SystemF2Store.ExpDataCon <> beq_false_and_split thm
+R1184:1202 Iron.Language.SystemF2Store.ExpDataCon <> beq_false_and_split thm
+prf 1295:1307 <> datacon_eq_ex
+R1330:1336 Iron.Language.SystemF2Store.ExpDataCon <> datacon ind
+R1351:1354 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1345:1347 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1342:1344 Iron.Language.SystemF2Store.ExpDataCon <> dc1 var
+R1348:1350 Iron.Language.SystemF2Store.ExpDataCon <> dc2 var
+R1358:1361 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R1355:1357 Iron.Language.SystemF2Store.ExpDataCon <> dc1 var
+R1362:1364 Iron.Language.SystemF2Store.ExpDataCon <> dc2 var
+R1392:1398 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R1400:1401 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R1403:1405 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1406:1416 Iron.Language.SystemF2Store.ExpDataCon <> datacon_beq def
+R1392:1398 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R1400:1401 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R1403:1405 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1406:1416 Iron.Language.SystemF2Store.ExpDataCon <> datacon_beq def
+R1467:1480 Iron.Language.SystemF2Store.ExpDataCon <> datacon_beq_eq thm
+R1467:1480 Iron.Language.SystemF2Store.ExpDataCon <> datacon_beq_eq thm
+R1517:1519 Coq.Init.Logic <> not def
+R1545:1561 Iron.Language.SystemF2Store.ExpDataCon <> datacon_beq_false thm
+R1545:1561 Iron.Language.SystemF2Store.ExpDataCon <> datacon_beq_false thm
+R1593:1605 Iron.Language.SystemF2Store.ExpDataCon <> datacon_eq_ex thm

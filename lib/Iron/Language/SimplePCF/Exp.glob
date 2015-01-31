@@ -1,0 +1,285 @@
+DIGEST 9c95a483a541e65b32891bd627cb64a8
+FIron.Language.SimplePCF.Exp
+R16:43 Iron.Language.SimplePCF.Base <> <> lib
+ind 153:157 <> tycon
+constr 172:180 <> TyConBool
+constr 194:201 <> TyConNat
+R185:189 Iron.Language.SimplePCF.Exp <> tycon ind
+R207:211 Iron.Language.SimplePCF.Exp <> tycon ind
+R232:236 Iron.Language.SimplePCF.Exp <> tycon ind
+ind 274:275 <> ty
+constr 291:294 <> TCon
+constr 319:322 <> TFun
+R313:314 Iron.Language.SimplePCF.Exp <> ty ind
+R304:308 Iron.Language.SimplePCF.Exp <> tycon ind
+R347:348 Iron.Language.SimplePCF.Exp <> ty ind
+R341:342 Iron.Language.SimplePCF.Exp <> ty ind
+R332:333 Iron.Language.SimplePCF.Exp <> ty ind
+R369:370 Iron.Language.SimplePCF.Exp <> ty ind
+def 407:411 <> tBool
+R416:419 Iron.Language.SimplePCF.Exp <> TCon constr
+R421:429 Iron.Language.SimplePCF.Exp <> TyConBool constr
+def 443:446 <> tNat
+R452:455 Iron.Language.SimplePCF.Exp <> TCon constr
+R457:464 Iron.Language.SimplePCF.Exp <> TyConNat constr
+def 504:508 <> tyenv
+R513:516 Coq.Init.Datatypes <> list ind
+R518:519 Iron.Language.SimplePCF.Exp <> ty ind
+ind 629:631 <> exp
+constr 663:666 <> XVar
+constr 687:690 <> XLam
+constr 718:721 <> XApp
+constr 767:770 <> XFix
+constr 815:818 <> XNat
+constr 839:843 <> XSucc
+constr 863:867 <> XPred
+constr 904:908 <> XTrue
+constr 921:926 <> XFalse
+constr 938:944 <> XIsZero
+constr 980:982 <> XIf
+R680:682 Iron.Language.SimplePCF.Exp <> exp ind
+R673:675 Coq.Init.Datatypes <> nat ind
+R711:713 Iron.Language.SimplePCF.Exp <> exp ind
+R704:706 Iron.Language.SimplePCF.Exp <> exp ind
+R697:698 Iron.Language.SimplePCF.Exp <> ty ind
+R742:744 Iron.Language.SimplePCF.Exp <> exp ind
+R735:737 Iron.Language.SimplePCF.Exp <> exp ind
+R728:730 Iron.Language.SimplePCF.Exp <> exp ind
+R791:793 Iron.Language.SimplePCF.Exp <> exp ind
+R784:786 Iron.Language.SimplePCF.Exp <> exp ind
+R777:778 Iron.Language.SimplePCF.Exp <> ty ind
+R832:834 Iron.Language.SimplePCF.Exp <> exp ind
+R825:827 Coq.Init.Datatypes <> nat ind
+R856:858 Iron.Language.SimplePCF.Exp <> exp ind
+R849:851 Iron.Language.SimplePCF.Exp <> exp ind
+R880:882 Iron.Language.SimplePCF.Exp <> exp ind
+R873:875 Iron.Language.SimplePCF.Exp <> exp ind
+R914:916 Iron.Language.SimplePCF.Exp <> exp ind
+R931:933 Iron.Language.SimplePCF.Exp <> exp ind
+R955:957 Iron.Language.SimplePCF.Exp <> exp ind
+R948:950 Iron.Language.SimplePCF.Exp <> exp ind
+R1011:1013 Iron.Language.SimplePCF.Exp <> exp ind
+R1004:1006 Iron.Language.SimplePCF.Exp <> exp ind
+R997:999 Iron.Language.SimplePCF.Exp <> exp ind
+R990:992 Iron.Language.SimplePCF.Exp <> exp ind
+R1034:1036 Iron.Language.SimplePCF.Exp <> exp ind
+ind 1171:1174 <> wnfX
+constr 1196:1203 <> Wnf_XVar
+constr 1245:1252 <> Wnf_XLam
+constr 1301:1308 <> Wnf_XNat
+constr 1349:1357 <> Wnf_XTrue
+constr 1380:1388 <> Wnf_False
+R1178:1180 Iron.Language.SimplePCF.Exp <> exp ind
+R1227:1230 Iron.Language.SimplePCF.Exp <> wnfX ind
+R1233:1236 Iron.Language.SimplePCF.Exp <> XVar constr
+R1238:1238 Iron.Language.SimplePCF.Exp <> i var
+R1279:1282 Iron.Language.SimplePCF.Exp <> wnfX ind
+R1285:1288 Iron.Language.SimplePCF.Exp <> XLam constr
+R1293:1294 Iron.Language.SimplePCF.Exp <> x2 var
+R1290:1291 Iron.Language.SimplePCF.Exp <> t1 var
+R1331:1334 Iron.Language.SimplePCF.Exp <> wnfX ind
+R1337:1340 Iron.Language.SimplePCF.Exp <> XNat constr
+R1342:1342 Iron.Language.SimplePCF.Exp <> n var
+R1365:1368 Iron.Language.SimplePCF.Exp <> wnfX ind
+R1370:1374 Iron.Language.SimplePCF.Exp <> XTrue constr
+R1396:1399 Iron.Language.SimplePCF.Exp <> wnfX ind
+R1401:1406 Iron.Language.SimplePCF.Exp <> XFalse constr
+R1427:1430 Iron.Language.SimplePCF.Exp <> wnfX ind
+def 1514:1516 <> wfX
+R1523:1527 Iron.Language.SimplePCF.Exp <> tyenv def
+R1535:1537 Iron.Language.SimplePCF.Exp <> exp ind
+R1557:1558 Iron.Language.SimplePCF.Exp <> xx var
+R1587:1590 Iron.Language.SimplePCF.Exp <> XVar constr
+R1606:1612 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R1614:1615 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R1624:1626 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1616:1618 Iron.Data.List.Base <> get def
+R1622:1623 Iron.Language.SimplePCF.Exp <> te var
+R1627:1630 Coq.Init.Datatypes <> Some constr
+R1637:1640 Iron.Language.SimplePCF.Exp <> XLam constr
+R1656:1658 Iron.Language.SimplePCF.Exp <> wfX def
+R1663:1666 Iron.Data.List.Base <> ::x_':>'_x not
+R1661:1662 Iron.Language.SimplePCF.Exp <> te var
+R1675:1678 Iron.Language.SimplePCF.Exp <> XApp constr
+R1703:1706 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1694:1696 Iron.Language.SimplePCF.Exp <> wfX def
+R1698:1699 Iron.Language.SimplePCF.Exp <> te var
+R1707:1709 Iron.Language.SimplePCF.Exp <> wfX def
+R1711:1712 Iron.Language.SimplePCF.Exp <> te var
+R1738:1741 Iron.Language.SimplePCF.Exp <> XFix constr
+R1757:1759 Iron.Language.SimplePCF.Exp <> wfX def
+R1764:1767 Iron.Data.List.Base <> ::x_':>'_x not
+R1762:1763 Iron.Language.SimplePCF.Exp <> te var
+R1794:1797 Iron.Language.SimplePCF.Exp <> XNat constr
+R1813:1816 Coq.Init.Logic <> True ind
+R1821:1825 Iron.Language.SimplePCF.Exp <> XSucc constr
+R1840:1842 Iron.Language.SimplePCF.Exp <> wfX def
+R1844:1845 Iron.Language.SimplePCF.Exp <> te var
+R1853:1857 Iron.Language.SimplePCF.Exp <> XPred constr
+R1872:1874 Iron.Language.SimplePCF.Exp <> wfX def
+R1876:1877 Iron.Language.SimplePCF.Exp <> te var
+R1902:1906 Iron.Language.SimplePCF.Exp <> XTrue constr
+R1921:1924 Coq.Init.Logic <> True ind
+R1929:1934 Iron.Language.SimplePCF.Exp <> XFalse constr
+R1948:1951 Coq.Init.Logic <> True ind
+R1956:1962 Iron.Language.SimplePCF.Exp <> XIsZero constr
+R1975:1977 Iron.Language.SimplePCF.Exp <> wfX def
+R1979:1980 Iron.Language.SimplePCF.Exp <> te var
+R2006:2008 Iron.Language.SimplePCF.Exp <> XIf constr
+R2034:2037 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2025:2027 Iron.Language.SimplePCF.Exp <> wfX def
+R2029:2030 Iron.Language.SimplePCF.Exp <> te var
+R2047:2050 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2038:2040 Iron.Language.SimplePCF.Exp <> wfX def
+R2042:2043 Iron.Language.SimplePCF.Exp <> te var
+R2051:2053 Iron.Language.SimplePCF.Exp <> wfX def
+R2055:2056 Iron.Language.SimplePCF.Exp <> te var
+def 2149:2155 <> closedX
+R2162:2164 Iron.Language.SimplePCF.Exp <> exp ind
+R2178:2180 Iron.Language.SimplePCF.Exp <> wfX def
+R2186:2187 Iron.Language.SimplePCF.Exp <> xx var
+R2182:2184 Coq.Init.Datatypes <> nil constr
+R2202:2208 Iron.Language.SimplePCF.Exp <> closedX def
+def 2292:2296 <> value
+R2303:2305 Iron.Language.SimplePCF.Exp <> exp ind
+R2318:2321 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2312:2315 Iron.Language.SimplePCF.Exp <> wnfX ind
+R2317:2317 Iron.Language.SimplePCF.Exp <> x var
+R2322:2328 Iron.Language.SimplePCF.Exp <> closedX def
+R2330:2330 Iron.Language.SimplePCF.Exp <> x var
+R2345:2349 Iron.Language.SimplePCF.Exp <> value def
+prf 2359:2368 <> value_wnfX
+R2395:2398 Iron.Language.SimplePCF.Exp <> wnfX ind
+R2400:2400 Iron.Language.SimplePCF.Exp <> x var
+R2384:2388 Iron.Language.SimplePCF.Exp <> value def
+R2390:2390 Iron.Language.SimplePCF.Exp <> x var
+R2453:2462 Iron.Language.SimplePCF.Exp <> value_wnfX thm
+prf 2472:2484 <> value_closedX
+R2510:2516 Iron.Language.SimplePCF.Exp <> closedX def
+R2518:2518 Iron.Language.SimplePCF.Exp <> x var
+R2499:2503 Iron.Language.SimplePCF.Exp <> value def
+R2505:2505 Iron.Language.SimplePCF.Exp <> x var
+R2571:2583 Iron.Language.SimplePCF.Exp <> value_closedX thm
+def 3019:3023 <> liftX
+R3031:3033 Coq.Init.Datatypes <> nat ind
+R3091:3093 Iron.Language.SimplePCF.Exp <> exp ind
+R3131:3133 Iron.Language.SimplePCF.Exp <> exp ind
+R3145:3146 Iron.Language.SimplePCF.Exp <> xx var
+R3161:3164 Iron.Language.SimplePCF.Exp <> XVar constr
+R3183:3191 Coq.Arith.Compare_dec <> le_gt_dec def
+R3193:3193 Iron.Language.SimplePCF.Exp <> d var
+R3367:3368 Iron.Language.SimplePCF.Exp <> xx var
+R3287:3290 Iron.Language.SimplePCF.Exp <> XVar constr
+R3293:3293 Coq.Init.Datatypes <> S constr
+R3434:3437 Iron.Language.SimplePCF.Exp <> XLam constr
+R3450:3453 Iron.Language.SimplePCF.Exp <> XLam constr
+R3459:3463 Iron.Language.SimplePCF.Exp <> liftX def
+R3466:3466 Coq.Init.Datatypes <> S constr
+R3468:3468 Iron.Language.SimplePCF.Exp <> d var
+R3482:3485 Iron.Language.SimplePCF.Exp <> XApp constr
+R3498:3501 Iron.Language.SimplePCF.Exp <> XApp constr
+R3520:3524 Iron.Language.SimplePCF.Exp <> liftX def
+R3526:3526 Iron.Language.SimplePCF.Exp <> d var
+R3507:3511 Iron.Language.SimplePCF.Exp <> liftX def
+R3513:3513 Iron.Language.SimplePCF.Exp <> d var
+R3560:3563 Iron.Language.SimplePCF.Exp <> XFix constr
+R3576:3579 Iron.Language.SimplePCF.Exp <> XFix constr
+R3585:3589 Iron.Language.SimplePCF.Exp <> liftX def
+R3592:3592 Coq.Init.Datatypes <> S constr
+R3594:3594 Iron.Language.SimplePCF.Exp <> d var
+R3628:3631 Iron.Language.SimplePCF.Exp <> XNat constr
+R3644:3645 Iron.Language.SimplePCF.Exp <> xx var
+R3654:3658 Iron.Language.SimplePCF.Exp <> XSucc constr
+R3670:3674 Iron.Language.SimplePCF.Exp <> XSucc constr
+R3679:3683 Iron.Language.SimplePCF.Exp <> liftX def
+R3685:3685 Iron.Language.SimplePCF.Exp <> d var
+R3698:3702 Iron.Language.SimplePCF.Exp <> XPred constr
+R3714:3718 Iron.Language.SimplePCF.Exp <> XPred constr
+R3723:3727 Iron.Language.SimplePCF.Exp <> liftX def
+R3729:3729 Iron.Language.SimplePCF.Exp <> d var
+R3762:3766 Iron.Language.SimplePCF.Exp <> XTrue constr
+R3778:3779 Iron.Language.SimplePCF.Exp <> xx var
+R3788:3793 Iron.Language.SimplePCF.Exp <> XFalse constr
+R3804:3805 Iron.Language.SimplePCF.Exp <> xx var
+R3814:3820 Iron.Language.SimplePCF.Exp <> XIsZero constr
+R3830:3836 Iron.Language.SimplePCF.Exp <> XIsZero constr
+R3839:3843 Iron.Language.SimplePCF.Exp <> liftX def
+R3845:3845 Iron.Language.SimplePCF.Exp <> d var
+R3879:3881 Iron.Language.SimplePCF.Exp <> XIf constr
+R3895:3897 Iron.Language.SimplePCF.Exp <> XIf constr
+R3926:3930 Iron.Language.SimplePCF.Exp <> liftX def
+R3932:3932 Iron.Language.SimplePCF.Exp <> d var
+R3913:3917 Iron.Language.SimplePCF.Exp <> liftX def
+R3919:3919 Iron.Language.SimplePCF.Exp <> d var
+R3900:3904 Iron.Language.SimplePCF.Exp <> liftX def
+R3906:3906 Iron.Language.SimplePCF.Exp <> d var
+def 4090:4095 <> substX
+R4102:4104 Coq.Init.Datatypes <> nat ind
+R4162:4164 Iron.Language.SimplePCF.Exp <> exp ind
+R4215:4217 Iron.Language.SimplePCF.Exp <> exp ind
+R4266:4268 Iron.Language.SimplePCF.Exp <> exp ind
+R4281:4282 Iron.Language.SimplePCF.Exp <> xx var
+R4336:4339 Iron.Language.SimplePCF.Exp <> XVar constr
+R4358:4368 Coq.Arith.Compare_dec <> nat_compare def
+R4373:4373 Iron.Language.SimplePCF.Exp <> d var
+R4449:4450 Coq.Init.Datatypes <> Eq constr
+R4456:4456 Iron.Language.SimplePCF.Exp <> u var
+R4623:4624 Coq.Init.Datatypes <> Gt constr
+R4630:4633 Iron.Language.SimplePCF.Exp <> XVar constr
+R4638:4640 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R4711:4712 Coq.Init.Datatypes <> Lt constr
+R4718:4721 Iron.Language.SimplePCF.Exp <> XVar constr
+R4905:4908 Iron.Language.SimplePCF.Exp <> XLam constr
+R4921:4924 Iron.Language.SimplePCF.Exp <> XLam constr
+R4930:4935 Iron.Language.SimplePCF.Exp <> substX def
+R4944:4948 Iron.Language.SimplePCF.Exp <> liftX def
+R4952:4952 Iron.Language.SimplePCF.Exp <> u var
+R4938:4938 Coq.Init.Datatypes <> S constr
+R4940:4940 Iron.Language.SimplePCF.Exp <> d var
+R4967:4970 Iron.Language.SimplePCF.Exp <> XApp constr
+R4983:4986 Iron.Language.SimplePCF.Exp <> XApp constr
+R5005:5010 Iron.Language.SimplePCF.Exp <> substX def
+R5014:5014 Iron.Language.SimplePCF.Exp <> u var
+R5012:5012 Iron.Language.SimplePCF.Exp <> d var
+R4989:4994 Iron.Language.SimplePCF.Exp <> substX def
+R4998:4998 Iron.Language.SimplePCF.Exp <> u var
+R4996:4996 Iron.Language.SimplePCF.Exp <> d var
+R5069:5072 Iron.Language.SimplePCF.Exp <> XFix constr
+R5085:5088 Iron.Language.SimplePCF.Exp <> XFix constr
+R5094:5099 Iron.Language.SimplePCF.Exp <> substX def
+R5108:5112 Iron.Language.SimplePCF.Exp <> liftX def
+R5116:5116 Iron.Language.SimplePCF.Exp <> u var
+R5102:5102 Coq.Init.Datatypes <> S constr
+R5104:5104 Iron.Language.SimplePCF.Exp <> d var
+R5172:5175 Iron.Language.SimplePCF.Exp <> XNat constr
+R5188:5189 Iron.Language.SimplePCF.Exp <> xx var
+R5198:5202 Iron.Language.SimplePCF.Exp <> XSucc constr
+R5214:5218 Iron.Language.SimplePCF.Exp <> XSucc constr
+R5221:5226 Iron.Language.SimplePCF.Exp <> substX def
+R5230:5230 Iron.Language.SimplePCF.Exp <> u var
+R5228:5228 Iron.Language.SimplePCF.Exp <> d var
+R5243:5247 Iron.Language.SimplePCF.Exp <> XPred constr
+R5259:5263 Iron.Language.SimplePCF.Exp <> XPred constr
+R5266:5271 Iron.Language.SimplePCF.Exp <> substX def
+R5275:5275 Iron.Language.SimplePCF.Exp <> u var
+R5273:5273 Iron.Language.SimplePCF.Exp <> d var
+R5329:5333 Iron.Language.SimplePCF.Exp <> XTrue constr
+R5345:5346 Iron.Language.SimplePCF.Exp <> xx var
+R5355:5360 Iron.Language.SimplePCF.Exp <> XFalse constr
+R5371:5372 Iron.Language.SimplePCF.Exp <> xx var
+R5381:5387 Iron.Language.SimplePCF.Exp <> XIsZero constr
+R5397:5403 Iron.Language.SimplePCF.Exp <> XIsZero constr
+R5406:5411 Iron.Language.SimplePCF.Exp <> substX def
+R5415:5415 Iron.Language.SimplePCF.Exp <> u var
+R5413:5413 Iron.Language.SimplePCF.Exp <> d var
+R5469:5471 Iron.Language.SimplePCF.Exp <> XIf constr
+R5490:5492 Iron.Language.SimplePCF.Exp <> XIf constr
+R5527:5532 Iron.Language.SimplePCF.Exp <> substX def
+R5536:5536 Iron.Language.SimplePCF.Exp <> u var
+R5534:5534 Iron.Language.SimplePCF.Exp <> d var
+R5511:5516 Iron.Language.SimplePCF.Exp <> substX def
+R5520:5520 Iron.Language.SimplePCF.Exp <> u var
+R5518:5518 Iron.Language.SimplePCF.Exp <> d var
+R5495:5500 Iron.Language.SimplePCF.Exp <> substX def
+R5504:5504 Iron.Language.SimplePCF.Exp <> u var
+R5502:5502 Iron.Language.SimplePCF.Exp <> d var

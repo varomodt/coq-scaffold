@@ -1,0 +1,267 @@
+DIGEST 11996d9993277afa761a9d9ecca4a72a
+FIron.Language.SimpleRef.Step
+R16:50 Iron.Language.SimpleRef.SubstExpExp <> <> lib
+R68:94 Iron.Language.SimpleRef.Exp <> <> lib
+ind 394:400 <> exp_ctx
+constr 431:435 <> XcTop
+constr 468:473 <> XcApp1
+constr 532:537 <> XcApp2
+constr 613:620 <> XcNewRef
+constr 663:671 <> XcReadRef
+constr 715:725 <> XcWriteRef1
+constr 789:799 <> XcWriteRef2
+R412:414 Iron.Language.SimpleRef.Exp <> exp ind
+R405:407 Iron.Language.SimpleRef.Exp <> exp ind
+R443:449 Iron.Language.SimpleRef.Step <> exp_ctx ind
+R461:461 Iron.Language.SimpleRef.Step <> x var
+R497:503 Iron.Language.SimpleRef.Step <> exp_ctx ind
+R516:519 Iron.Language.SimpleRef.Exp <> XApp constr
+R524:525 Iron.Language.SimpleRef.Step <> x2 var
+R521:522 Iron.Language.SimpleRef.Step <> xx var
+R578:584 Iron.Language.SimpleRef.Step <> exp_ctx ind
+R597:600 Iron.Language.SimpleRef.Exp <> XApp constr
+R605:606 Iron.Language.SimpleRef.Step <> xx var
+R602:603 Iron.Language.SimpleRef.Step <> v1 var
+R562:566 Iron.Language.SimpleRef.Exp <> value def
+R568:569 Iron.Language.SimpleRef.Step <> v1 var
+R628:634 Iron.Language.SimpleRef.Step <> exp_ctx ind
+R647:653 Iron.Language.SimpleRef.Exp <> XNewRef constr
+R655:656 Iron.Language.SimpleRef.Step <> xx var
+R679:685 Iron.Language.SimpleRef.Step <> exp_ctx ind
+R698:705 Iron.Language.SimpleRef.Exp <> XReadRef constr
+R707:708 Iron.Language.SimpleRef.Step <> xx var
+R749:755 Iron.Language.SimpleRef.Step <> exp_ctx ind
+R768:776 Iron.Language.SimpleRef.Exp <> XWriteRef constr
+R781:782 Iron.Language.SimpleRef.Step <> x2 var
+R778:779 Iron.Language.SimpleRef.Step <> xx var
+R838:844 Iron.Language.SimpleRef.Step <> exp_ctx ind
+R857:865 Iron.Language.SimpleRef.Exp <> XWriteRef constr
+R870:871 Iron.Language.SimpleRef.Step <> xx var
+R867:868 Iron.Language.SimpleRef.Step <> v1 var
+R823:827 Iron.Language.SimpleRef.Exp <> value def
+R829:830 Iron.Language.SimpleRef.Step <> v1 var
+R894:900 Iron.Language.SimpleRef.Step <> exp_ctx ind
+ind 944:947 <> STEP
+constr 1026:1034 <> EsContext
+constr 1165:1172 <> EsLamApp
+constr 1318:1325 <> EsNewRef
+constr 1470:1478 <> EsReadRef
+constr 1604:1613 <> EsWriteRef
+R975:977 Iron.Language.SimpleRef.Exp <> exp ind
+R967:970 Iron.Language.SimpleRef.Exp <> heap def
+R960:962 Iron.Language.SimpleRef.Exp <> exp ind
+R952:955 Iron.Language.SimpleRef.Exp <> heap def
+R1109:1112 Iron.Language.SimpleRef.Step <> STEP ind
+R1126:1126 Iron.Language.SimpleRef.Step <> C var
+R1128:1129 Iron.Language.SimpleRef.Step <> x' var
+R1122:1123 Iron.Language.SimpleRef.Step <> h' var
+R1117:1117 Iron.Language.SimpleRef.Step <> C var
+R1119:1119 Iron.Language.SimpleRef.Step <> x var
+R1114:1114 Iron.Language.SimpleRef.Step <> h var
+R1084:1087 Iron.Language.SimpleRef.Step <> STEP ind
+R1100:1101 Iron.Language.SimpleRef.Step <> x' var
+R1097:1098 Iron.Language.SimpleRef.Step <> h' var
+R1091:1091 Iron.Language.SimpleRef.Step <> x var
+R1089:1089 Iron.Language.SimpleRef.Step <> h var
+R1068:1074 Iron.Language.SimpleRef.Step <> exp_ctx ind
+R1076:1076 Iron.Language.SimpleRef.Step <> C var
+R1222:1225 Iron.Language.SimpleRef.Step <> STEP ind
+R1268:1273 Iron.Language.SimpleRef.Exp <> substX def
+R1280:1282 Iron.Language.SimpleRef.Step <> x12 var
+R1277:1278 Iron.Language.SimpleRef.Step <> v2 var
+R1265:1265 Iron.Language.SimpleRef.Step <> h var
+R1230:1233 Iron.Language.SimpleRef.Exp <> XApp constr
+R1250:1251 Iron.Language.SimpleRef.Step <> v2 var
+R1236:1239 Iron.Language.SimpleRef.Exp <> XLam constr
+R1245:1247 Iron.Language.SimpleRef.Step <> x12 var
+R1241:1243 Iron.Language.SimpleRef.Step <> t11 var
+R1227:1227 Iron.Language.SimpleRef.Step <> h var
+R1207:1211 Iron.Language.SimpleRef.Exp <> value def
+R1213:1214 Iron.Language.SimpleRef.Step <> v2 var
+R1366:1369 Iron.Language.SimpleRef.Step <> STEP ind
+R1420:1423 Iron.Language.SimpleRef.Exp <> XLoc constr
+R1426:1431 Coq.Init.Datatypes <> length def
+R1433:1433 Iron.Language.SimpleRef.Step <> h var
+R1408:1411 Iron.Data.List.Base <> snoc def
+R1416:1416 Iron.Language.SimpleRef.Step <> h var
+R1413:1414 Iron.Language.SimpleRef.Step <> v1 var
+R1384:1390 Iron.Language.SimpleRef.Exp <> XNewRef constr
+R1392:1393 Iron.Language.SimpleRef.Step <> v1 var
+R1371:1371 Iron.Language.SimpleRef.Step <> h var
+R1351:1355 Iron.Language.SimpleRef.Exp <> value def
+R1357:1358 Iron.Language.SimpleRef.Step <> v1 var
+R1528:1531 Iron.Language.SimpleRef.Step <> STEP ind
+R1570:1570 Iron.Language.SimpleRef.Step <> v var
+R1567:1567 Iron.Language.SimpleRef.Step <> h var
+R1537:1544 Iron.Language.SimpleRef.Exp <> XReadRef constr
+R1547:1550 Iron.Language.SimpleRef.Exp <> XLoc constr
+R1552:1552 Iron.Language.SimpleRef.Step <> l var
+R1533:1533 Iron.Language.SimpleRef.Step <> h var
+R1512:1514 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1505:1507 Iron.Data.List.Base <> get def
+R1511:1511 Iron.Language.SimpleRef.Step <> h var
+R1509:1509 Iron.Language.SimpleRef.Step <> l var
+R1515:1518 Coq.Init.Datatypes <> Some constr
+R1520:1520 Iron.Language.SimpleRef.Step <> v var
+R1656:1659 Iron.Language.SimpleRef.Step <> STEP ind
+R1715:1719 Iron.Language.SimpleRef.Exp <> xUnit def
+R1700:1705 Iron.Data.List.Update <> update def
+R1712:1712 Iron.Language.SimpleRef.Step <> h var
+R1709:1710 Iron.Language.SimpleRef.Step <> v2 var
+R1707:1707 Iron.Language.SimpleRef.Step <> l var
+R1665:1673 Iron.Language.SimpleRef.Exp <> XWriteRef constr
+R1684:1685 Iron.Language.SimpleRef.Step <> v2 var
+R1676:1679 Iron.Language.SimpleRef.Exp <> XLoc constr
+R1681:1681 Iron.Language.SimpleRef.Step <> l var
+R1661:1661 Iron.Language.SimpleRef.Step <> h var
+R1641:1645 Iron.Language.SimpleRef.Exp <> value def
+R1647:1648 Iron.Language.SimpleRef.Step <> v2 var
+R1741:1744 Iron.Language.SimpleRef.Step <> STEP ind
+def 1932:1934 <> wfH
+R1940:1943 Iron.Language.SimpleRef.Exp <> heap def
+R1951:1956 Coq.Lists.List <> Forall ind
+R1964:1964 Iron.Language.SimpleRef.Step <> h var
+R1958:1962 Iron.Language.SimpleRef.Exp <> value def
+R1979:1981 Iron.Language.SimpleRef.Step <> wfH def
+prf 2057:2066 <> heap_value
+R2120:2124 Iron.Language.SimpleRef.Exp <> value def
+R2126:2126 Iron.Language.SimpleRef.Step <> x var
+R2106:2108 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2099:2101 Iron.Data.List.Base <> get def
+R2105:2105 Iron.Language.SimpleRef.Step <> h var
+R2103:2103 Iron.Language.SimpleRef.Step <> l var
+R2109:2112 Coq.Init.Datatypes <> Some constr
+R2114:2114 Iron.Language.SimpleRef.Step <> x var
+R2089:2091 Iron.Language.SimpleRef.Step <> wfH def
+R2093:2093 Iron.Language.SimpleRef.Step <> h var
+R2153:2162 Iron.Data.List.Forall <> Forall_get thm
+R2153:2162 Iron.Data.List.Forall <> Forall_get thm
+R2190:2199 Iron.Language.SimpleRef.Step <> heap_value thm
+prf 2294:2311 <> step_preserves_wfH
+R2373:2375 Iron.Language.SimpleRef.Step <> wfH def
+R2377:2378 Iron.Language.SimpleRef.Step <> h2 var
+R2352:2355 Iron.Language.SimpleRef.Step <> STEP ind
+R2366:2367 Iron.Language.SimpleRef.Step <> x2 var
+R2363:2364 Iron.Language.SimpleRef.Step <> h2 var
+R2360:2361 Iron.Language.SimpleRef.Step <> x1 var
+R2357:2358 Iron.Language.SimpleRef.Step <> h1 var
+R2341:2343 Iron.Language.SimpleRef.Step <> wfH def
+R2345:2346 Iron.Language.SimpleRef.Step <> h1 var
+R2441:2453 Iron.Data.List.Update <> Forall_update thm
+R2441:2453 Iron.Data.List.Update <> Forall_update thm
+R2441:2453 Iron.Data.List.Update <> Forall_update thm
+R2441:2453 Iron.Data.List.Update <> Forall_update thm
+R2441:2453 Iron.Data.List.Update <> Forall_update thm
+ind 2809:2813 <> STEPS
+constr 3063:3068 <> EsNone
+constr 3139:3144 <> EsStep
+constr 3268:3275 <> EsAppend
+R2840:2842 Iron.Language.SimpleRef.Exp <> exp ind
+R2832:2835 Iron.Language.SimpleRef.Exp <> heap def
+R2825:2827 Iron.Language.SimpleRef.Exp <> exp ind
+R2817:2820 Iron.Language.SimpleRef.Exp <> heap def
+R3093:3097 Iron.Language.SimpleRef.Step <> STEPS ind
+R3106:3106 Iron.Language.SimpleRef.Step <> x var
+R3104:3104 Iron.Language.SimpleRef.Step <> h var
+R3101:3101 Iron.Language.SimpleRef.Step <> x var
+R3099:3099 Iron.Language.SimpleRef.Step <> h var
+R3201:3205 Iron.Language.SimpleRef.Step <> STEPS ind
+R3216:3217 Iron.Language.SimpleRef.Step <> x2 var
+R3213:3214 Iron.Language.SimpleRef.Step <> h2 var
+R3210:3211 Iron.Language.SimpleRef.Step <> x1 var
+R3207:3208 Iron.Language.SimpleRef.Step <> h1 var
+R3177:3180 Iron.Language.SimpleRef.Step <> STEP ind
+R3192:3193 Iron.Language.SimpleRef.Step <> x2 var
+R3189:3190 Iron.Language.SimpleRef.Step <> h2 var
+R3186:3187 Iron.Language.SimpleRef.Step <> x1 var
+R3183:3184 Iron.Language.SimpleRef.Step <> h1 var
+R3359:3363 Iron.Language.SimpleRef.Step <> STEPS ind
+R3374:3375 Iron.Language.SimpleRef.Step <> x3 var
+R3371:3372 Iron.Language.SimpleRef.Step <> h3 var
+R3368:3369 Iron.Language.SimpleRef.Step <> x1 var
+R3365:3366 Iron.Language.SimpleRef.Step <> h1 var
+R3335:3339 Iron.Language.SimpleRef.Step <> STEPS ind
+R3350:3351 Iron.Language.SimpleRef.Step <> x3 var
+R3347:3348 Iron.Language.SimpleRef.Step <> h3 var
+R3344:3345 Iron.Language.SimpleRef.Step <> x2 var
+R3341:3342 Iron.Language.SimpleRef.Step <> h2 var
+R3314:3318 Iron.Language.SimpleRef.Step <> STEPS ind
+R3329:3330 Iron.Language.SimpleRef.Step <> x2 var
+R3326:3327 Iron.Language.SimpleRef.Step <> h2 var
+R3323:3324 Iron.Language.SimpleRef.Step <> x1 var
+R3320:3321 Iron.Language.SimpleRef.Step <> h1 var
+R3397:3401 Iron.Language.SimpleRef.Step <> STEPS ind
+prf 3580:3592 <> steps_context
+R3659:3663 Iron.Language.SimpleRef.Step <> STEPS ind
+R3677:3677 Iron.Language.SimpleRef.Step <> C var
+R3679:3680 Iron.Language.SimpleRef.Step <> x' var
+R3673:3674 Iron.Language.SimpleRef.Step <> h' var
+R3668:3668 Iron.Language.SimpleRef.Step <> C var
+R3670:3670 Iron.Language.SimpleRef.Step <> x var
+R3665:3665 Iron.Language.SimpleRef.Step <> h var
+R3635:3639 Iron.Language.SimpleRef.Step <> STEPS ind
+R3652:3653 Iron.Language.SimpleRef.Step <> x' var
+R3649:3650 Iron.Language.SimpleRef.Step <> h' var
+R3643:3643 Iron.Language.SimpleRef.Step <> x var
+R3641:3641 Iron.Language.SimpleRef.Step <> h var
+R3621:3627 Iron.Language.SimpleRef.Step <> exp_ctx ind
+R3629:3629 Iron.Language.SimpleRef.Step <> C var
+ind 4077:4082 <> STEPSL
+constr 4128:4134 <> EslNone
+constr 4177:4183 <> EslCons
+R4109:4111 Iron.Language.SimpleRef.Exp <> exp ind
+R4101:4104 Iron.Language.SimpleRef.Exp <> heap def
+R4094:4096 Iron.Language.SimpleRef.Exp <> exp ind
+R4086:4089 Iron.Language.SimpleRef.Exp <> heap def
+R4158:4163 Iron.Language.SimpleRef.Step <> STEPSL ind
+R4171:4171 Iron.Language.SimpleRef.Step <> x var
+R4169:4169 Iron.Language.SimpleRef.Step <> h var
+R4167:4167 Iron.Language.SimpleRef.Step <> x var
+R4165:4165 Iron.Language.SimpleRef.Step <> h var
+R4270:4275 Iron.Language.SimpleRef.Step <> STEPSL ind
+R4286:4287 Iron.Language.SimpleRef.Step <> x3 var
+R4283:4284 Iron.Language.SimpleRef.Step <> h3 var
+R4280:4281 Iron.Language.SimpleRef.Step <> x1 var
+R4277:4278 Iron.Language.SimpleRef.Step <> h1 var
+R4244:4249 Iron.Language.SimpleRef.Step <> STEPSL ind
+R4260:4261 Iron.Language.SimpleRef.Step <> x3 var
+R4257:4258 Iron.Language.SimpleRef.Step <> h3 var
+R4254:4255 Iron.Language.SimpleRef.Step <> x2 var
+R4251:4252 Iron.Language.SimpleRef.Step <> h2 var
+R4222:4225 Iron.Language.SimpleRef.Step <> STEP ind
+R4238:4239 Iron.Language.SimpleRef.Step <> x2 var
+R4235:4236 Iron.Language.SimpleRef.Step <> h2 var
+R4232:4233 Iron.Language.SimpleRef.Step <> x1 var
+R4229:4230 Iron.Language.SimpleRef.Step <> h1 var
+R4309:4314 Iron.Language.SimpleRef.Step <> STEPSL ind
+prf 4467:4478 <> stepsl_trans
+R4558:4563 Iron.Language.SimpleRef.Step <> STEPSL ind
+R4574:4575 Iron.Language.SimpleRef.Step <> x3 var
+R4571:4572 Iron.Language.SimpleRef.Step <> h3 var
+R4568:4569 Iron.Language.SimpleRef.Step <> x1 var
+R4565:4566 Iron.Language.SimpleRef.Step <> h1 var
+R4535:4540 Iron.Language.SimpleRef.Step <> STEPSL ind
+R4551:4552 Iron.Language.SimpleRef.Step <> x3 var
+R4548:4549 Iron.Language.SimpleRef.Step <> h3 var
+R4545:4546 Iron.Language.SimpleRef.Step <> x2 var
+R4542:4543 Iron.Language.SimpleRef.Step <> h2 var
+R4513:4518 Iron.Language.SimpleRef.Step <> STEPSL ind
+R4529:4530 Iron.Language.SimpleRef.Step <> x2 var
+R4526:4527 Iron.Language.SimpleRef.Step <> h2 var
+R4523:4524 Iron.Language.SimpleRef.Step <> x1 var
+R4520:4521 Iron.Language.SimpleRef.Step <> h1 var
+prf 4777:4791 <> stepsl_of_steps
+R4843:4848 Iron.Language.SimpleRef.Step <> STEPSL ind
+R4859:4860 Iron.Language.SimpleRef.Step <> x2 var
+R4856:4857 Iron.Language.SimpleRef.Step <> h2 var
+R4853:4854 Iron.Language.SimpleRef.Step <> x1 var
+R4850:4851 Iron.Language.SimpleRef.Step <> h1 var
+R4820:4824 Iron.Language.SimpleRef.Step <> STEPS ind
+R4836:4837 Iron.Language.SimpleRef.Step <> x2 var
+R4833:4834 Iron.Language.SimpleRef.Step <> h2 var
+R4830:4831 Iron.Language.SimpleRef.Step <> x1 var
+R4827:4828 Iron.Language.SimpleRef.Step <> h1 var
+R4905:4916 Iron.Language.SimpleRef.Step <> stepsl_trans thm
+R4905:4916 Iron.Language.SimpleRef.Step <> stepsl_trans thm
+R4905:4916 Iron.Language.SimpleRef.Step <> stepsl_trans thm
+R4905:4916 Iron.Language.SimpleRef.Step <> stepsl_trans thm

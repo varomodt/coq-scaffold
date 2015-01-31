@@ -1,0 +1,128 @@
+DIGEST ef1eb3602927c53cb1fbc99475b70f50
+FIron.Language.Simple.Exp
+R16:40 Iron.Language.Simple.Base <> <> lib
+ind 138:139 <> ty
+constr 155:158 <> TCon
+constr 214:217 <> TFun
+R170:171 Iron.Language.Simple.Exp <> ty ind
+R163:165 Coq.Init.Datatypes <> nat ind
+R235:236 Iron.Language.Simple.Exp <> ty ind
+R229:230 Iron.Language.Simple.Exp <> ty ind
+R222:223 Iron.Language.Simple.Exp <> ty ind
+R292:293 Iron.Language.Simple.Exp <> ty ind
+def 332:336 <> tyenv
+R341:344 Coq.Init.Datatypes <> list ind
+R346:347 Iron.Language.Simple.Exp <> ty ind
+ind 457:459 <> exp
+constr 474:477 <> XVar
+constr 526:529 <> XLam
+constr 584:587 <> XApp
+R489:491 Iron.Language.Simple.Exp <> exp ind
+R482:484 Coq.Init.Datatypes <> nat ind
+R548:550 Iron.Language.Simple.Exp <> exp ind
+R541:543 Iron.Language.Simple.Exp <> exp ind
+R534:535 Iron.Language.Simple.Exp <> ty ind
+R606:608 Iron.Language.Simple.Exp <> exp ind
+R599:601 Iron.Language.Simple.Exp <> exp ind
+R592:594 Iron.Language.Simple.Exp <> exp ind
+R657:659 Iron.Language.Simple.Exp <> exp ind
+ind 1099:1102 <> wnfX
+constr 1124:1131 <> Wnf_XVar
+constr 1171:1178 <> Wnf_XLam
+R1106:1108 Iron.Language.Simple.Exp <> exp ind
+R1153:1156 Iron.Language.Simple.Exp <> wnfX ind
+R1159:1162 Iron.Language.Simple.Exp <> XVar constr
+R1164:1164 Iron.Language.Simple.Exp <> i var
+R1203:1206 Iron.Language.Simple.Exp <> wnfX ind
+R1209:1212 Iron.Language.Simple.Exp <> XLam constr
+R1217:1218 Iron.Language.Simple.Exp <> x2 var
+R1214:1215 Iron.Language.Simple.Exp <> t1 var
+R1240:1243 Iron.Language.Simple.Exp <> wnfX ind
+def 1327:1329 <> wfX
+R1336:1340 Iron.Language.Simple.Exp <> tyenv def
+R1348:1350 Iron.Language.Simple.Exp <> exp ind
+R1370:1371 Iron.Language.Simple.Exp <> xx var
+R1383:1386 Iron.Language.Simple.Exp <> XVar constr
+R1397:1403 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R1405:1406 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R1415:1417 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1407:1409 Iron.Data.List.Base <> get def
+R1413:1414 Iron.Language.Simple.Exp <> te var
+R1418:1421 Coq.Init.Datatypes <> Some constr
+R1428:1431 Iron.Language.Simple.Exp <> XLam constr
+R1442:1444 Iron.Language.Simple.Exp <> wfX def
+R1449:1452 Iron.Data.List.Base <> ::x_':>'_x not
+R1447:1448 Iron.Language.Simple.Exp <> te var
+R1461:1464 Iron.Language.Simple.Exp <> XApp constr
+R1484:1487 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1475:1477 Iron.Language.Simple.Exp <> wfX def
+R1479:1480 Iron.Language.Simple.Exp <> te var
+R1488:1490 Iron.Language.Simple.Exp <> wfX def
+R1492:1493 Iron.Language.Simple.Exp <> te var
+def 1586:1592 <> closedX
+R1599:1601 Iron.Language.Simple.Exp <> exp ind
+R1615:1617 Iron.Language.Simple.Exp <> wfX def
+R1623:1624 Iron.Language.Simple.Exp <> xx var
+R1619:1621 Coq.Init.Datatypes <> nil constr
+R1639:1645 Iron.Language.Simple.Exp <> closedX def
+def 1728:1732 <> value
+R1739:1741 Iron.Language.Simple.Exp <> exp ind
+R1754:1757 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1748:1751 Iron.Language.Simple.Exp <> wnfX ind
+R1753:1753 Iron.Language.Simple.Exp <> x var
+R1758:1764 Iron.Language.Simple.Exp <> closedX def
+R1766:1766 Iron.Language.Simple.Exp <> x var
+R1781:1785 Iron.Language.Simple.Exp <> value def
+def 2199:2203 <> liftX
+R2211:2213 Coq.Init.Datatypes <> nat ind
+R2271:2273 Iron.Language.Simple.Exp <> exp ind
+R2332:2334 Iron.Language.Simple.Exp <> exp ind
+R2346:2347 Iron.Language.Simple.Exp <> xx var
+R2362:2365 Iron.Language.Simple.Exp <> XVar constr
+R2384:2392 Coq.Arith.Compare_dec <> le_gt_dec def
+R2394:2394 Iron.Language.Simple.Exp <> d var
+R2644:2645 Iron.Language.Simple.Exp <> xx var
+R2487:2490 Iron.Language.Simple.Exp <> XVar constr
+R2493:2493 Coq.Init.Datatypes <> S constr
+R2828:2831 Iron.Language.Simple.Exp <> XLam constr
+R2846:2849 Iron.Language.Simple.Exp <> XLam constr
+R2855:2859 Iron.Language.Simple.Exp <> liftX def
+R2862:2862 Coq.Init.Datatypes <> S constr
+R2864:2864 Iron.Language.Simple.Exp <> d var
+R2879:2882 Iron.Language.Simple.Exp <> XApp constr
+R2897:2900 Iron.Language.Simple.Exp <> XApp constr
+R2918:2922 Iron.Language.Simple.Exp <> liftX def
+R2924:2924 Iron.Language.Simple.Exp <> d var
+R2905:2909 Iron.Language.Simple.Exp <> liftX def
+R2911:2911 Iron.Language.Simple.Exp <> d var
+def 3081:3086 <> substX
+R3093:3095 Coq.Init.Datatypes <> nat ind
+R3153:3155 Iron.Language.Simple.Exp <> exp ind
+R3206:3208 Iron.Language.Simple.Exp <> exp ind
+R3257:3259 Iron.Language.Simple.Exp <> exp ind
+R3272:3273 Iron.Language.Simple.Exp <> xx var
+R3286:3289 Iron.Language.Simple.Exp <> XVar constr
+R3308:3318 Coq.Arith.Compare_dec <> nat_compare def
+R3323:3323 Iron.Language.Simple.Exp <> d var
+R3399:3400 Coq.Init.Datatypes <> Eq constr
+R3406:3406 Iron.Language.Simple.Exp <> u var
+R3573:3574 Coq.Init.Datatypes <> Gt constr
+R3580:3583 Iron.Language.Simple.Exp <> XVar constr
+R3588:3590 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R3661:3662 Coq.Init.Datatypes <> Lt constr
+R3668:3671 Iron.Language.Simple.Exp <> XVar constr
+R3871:3874 Iron.Language.Simple.Exp <> XLam constr
+R3889:3892 Iron.Language.Simple.Exp <> XLam constr
+R3898:3903 Iron.Language.Simple.Exp <> substX def
+R3912:3916 Iron.Language.Simple.Exp <> liftX def
+R3920:3920 Iron.Language.Simple.Exp <> u var
+R3906:3906 Coq.Init.Datatypes <> S constr
+R3908:3908 Iron.Language.Simple.Exp <> d var
+R3935:3938 Iron.Language.Simple.Exp <> XApp constr
+R3954:3957 Iron.Language.Simple.Exp <> XApp constr
+R3976:3981 Iron.Language.Simple.Exp <> substX def
+R3985:3985 Iron.Language.Simple.Exp <> u var
+R3983:3983 Iron.Language.Simple.Exp <> d var
+R3960:3965 Iron.Language.Simple.Exp <> substX def
+R3969:3969 Iron.Language.Simple.Exp <> u var
+R3967:3967 Iron.Language.Simple.Exp <> d var

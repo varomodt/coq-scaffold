@@ -1,0 +1,36 @@
+DIGEST cb6e80ae537a489412bdc9def0d7fae4
+FIron.Language.SystemF2Data.Type.Def.DaCon
+R16:46 Iron.Language.SystemF2Data.Base <> <> lib
+ind 204:210 <> datacon
+constr 225:231 <> DataCon
+R252:258 Iron.Language.SystemF2Data.Type.Def.DaCon <> datacon ind
+R245:247 Coq.Init.Datatypes <> nat ind
+R238:240 Coq.Init.Datatypes <> nat ind
+R279:285 Iron.Language.SystemF2Data.Type.Def.DaCon <> datacon ind
+def 334:339 <> dcUnit
+R344:350 Iron.Language.SystemF2Data.Type.Def.DaCon <> DataCon constr
+R372:377 Iron.Language.SystemF2Data.Type.Def.DaCon <> dcUnit def
+def 462:472 <> datacon_beq
+R495:496 Iron.Language.SystemF2Data.Type.Def.DaCon <> t2 var
+R491:492 Iron.Language.SystemF2Data.Type.Def.DaCon <> t1 var
+R507:513 Iron.Language.SystemF2Data.Type.Def.DaCon <> DataCon constr
+R524:530 Iron.Language.SystemF2Data.Type.Def.DaCon <> DataCon constr
+R561:564 Coq.Init.Datatypes <> :bool_scope:x_'&&'_x not
+R546:552 Coq.Arith.EqNat <> beq_nat def
+R565:571 Coq.Arith.EqNat <> beq_nat def
+prf 642:655 <> datacon_beq_eq
+R712:714 Coq.Init.Logic <> :type_scope:x_'='_x not
+R710:711 Iron.Language.SystemF2Data.Type.Def.DaCon <> dc var
+R715:717 Iron.Language.SystemF2Data.Type.Def.DaCon <> dc' var
+R684:686 Coq.Init.Logic <> :type_scope:x_'='_x not
+R680:683 Coq.Init.Datatypes <> true constr
+R687:697 Iron.Language.SystemF2Data.Type.Def.DaCon <> datacon_beq def
+R702:704 Iron.Language.SystemF2Data.Type.Def.DaCon <> dc' var
+R699:700 Iron.Language.SystemF2Data.Type.Def.DaCon <> dc var
+prf 832:848 <> datacon_beq_false
+R900:904 Coq.Init.Logic <> False ind
+R874:876 Coq.Init.Logic <> :type_scope:x_'='_x not
+R869:873 Coq.Init.Datatypes <> false constr
+R877:887 Iron.Language.SystemF2Data.Type.Def.DaCon <> datacon_beq def
+R892:893 Iron.Language.SystemF2Data.Type.Def.DaCon <> dc var
+R889:890 Iron.Language.SystemF2Data.Type.Def.DaCon <> dc var

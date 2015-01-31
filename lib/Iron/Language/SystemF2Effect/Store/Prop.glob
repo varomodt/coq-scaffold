@@ -1,0 +1,145 @@
+DIGEST 9981a69b474daa6caa66baf163767d20
+FIron.Language.SystemF2Effect.Store.Prop
+R16:48 Iron.Language.SystemF2Effect.Base <> <> lib
+ind 155:160 <> stprop
+constr 269:275 <> SRegion
+R286:291 Iron.Language.SystemF2Effect.Store.Prop <> stprop ind
+R279:281 Coq.Init.Datatypes <> nat ind
+def 330:336 <> stprops
+R343:346 Coq.Init.Datatypes <> list ind
+R348:353 Iron.Language.SystemF2Effect.Store.Prop <> stprop ind
+def 485:498 <> regionOfStProp
+R505:510 Iron.Language.SystemF2Effect.Store.Prop <> stprop ind
+R515:520 Coq.Init.Datatypes <> option ind
+R522:524 Coq.Init.Datatypes <> nat ind
+R536:536 Iron.Language.SystemF2Effect.Store.Prop <> s var
+R546:552 Iron.Language.SystemF2Effect.Store.Prop <> SRegion constr
+R564:567 Coq.Init.Datatypes <> Some constr
+def 667:675 <> isSRegion
+R682:684 Coq.Init.Datatypes <> nat ind
+R693:698 Iron.Language.SystemF2Effect.Store.Prop <> stprop ind
+R703:706 Coq.Init.Datatypes <> bool ind
+R719:720 Iron.Language.SystemF2Effect.Store.Prop <> pp var
+R730:736 Iron.Language.SystemF2Effect.Store.Prop <> SRegion constr
+R744:750 Coq.Arith.EqNat <> beq_nat def
+R752:752 Iron.Language.SystemF2Effect.Store.Prop <> p var
+def 859:868 <> hasSRegion
+R875:877 Coq.Init.Datatypes <> nat ind
+R886:892 Iron.Language.SystemF2Effect.Store.Prop <> stprops def
+R900:903 Iron.Data.List.Elem <> elem def
+R919:920 Iron.Language.SystemF2Effect.Store.Prop <> sp var
+R906:914 Iron.Language.SystemF2Effect.Store.Prop <> isSRegion def
+R916:916 Iron.Language.SystemF2Effect.Store.Prop <> p var
+def 1038:1048 <> allocRegion
+R1056:1062 Iron.Language.SystemF2Effect.Store.Prop <> stprops def
+R1067:1069 Coq.Init.Datatypes <> nat ind
+R1076:1076 Coq.Init.Datatypes <> S constr
+R1079:1086 Iron.Data.List.Max <> max_list def
+R1089:1098 Iron.Data.List.Concat <> catOptions def
+R1101:1103 Coq.Lists.List <> map def
+R1120:1121 Iron.Language.SystemF2Effect.Store.Prop <> sp var
+R1105:1118 Iron.Language.SystemF2Effect.Store.Prop <> regionOfStProp def
+prf 1135:1152 <> allocRegion_weaken
+R1228:1231 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R1207:1217 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion def
+R1222:1225 Iron.Data.List.Base <> ::x_':>'_x not
+R1226:1226 Iron.Language.SystemF2Effect.Store.Prop <> s var
+R1220:1221 Iron.Language.SystemF2Effect.Store.Prop <> sp var
+R1232:1232 Iron.Language.SystemF2Effect.Store.Prop <> p var
+R1190:1200 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R1176:1186 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion def
+R1188:1189 Iron.Language.SystemF2Effect.Store.Prop <> sp var
+R1201:1201 Iron.Language.SystemF2Effect.Store.Prop <> p var
+R1283:1293 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion def
+R1365:1368 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R1320:1327 Iron.Data.List.Max <> max_list def
+R1330:1339 Iron.Data.List.Concat <> catOptions def
+R1342:1344 Coq.Lists.List <> map def
+R1346:1359 Iron.Language.SystemF2Effect.Store.Prop <> regionOfStProp def
+R1365:1368 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R1320:1327 Iron.Data.List.Max <> max_list def
+R1330:1339 Iron.Data.List.Concat <> catOptions def
+R1342:1344 Coq.Lists.List <> map def
+R1346:1359 Iron.Language.SystemF2Effect.Store.Prop <> regionOfStProp def
+R1458:1461 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R1405:1407 Coq.Init.Peano <> max def
+R1412:1419 Iron.Data.List.Max <> max_list def
+R1422:1431 Iron.Data.List.Concat <> catOptions def
+R1434:1436 Coq.Lists.List <> map def
+R1438:1451 Iron.Language.SystemF2Effect.Store.Prop <> regionOfStProp def
+R1458:1461 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R1405:1407 Coq.Init.Peano <> max def
+R1412:1419 Iron.Data.List.Max <> max_list def
+R1422:1431 Iron.Data.List.Concat <> catOptions def
+R1434:1436 Coq.Lists.List <> map def
+R1438:1451 Iron.Language.SystemF2Effect.Store.Prop <> regionOfStProp def
+R1495:1509 Iron.Data.List.Max <> max_weaken_left thm
+R1495:1509 Iron.Data.List.Max <> max_weaken_left thm
+R1541:1558 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion_weaken thm
+prf 1666:1682 <> allocRegion_above
+R1700:1705 Coq.Lists.List <> Forall ind
+R1868:1869 Iron.Language.SystemF2Effect.Store.Prop <> sp var
+R1723:1736 Iron.Language.SystemF2Effect.Store.Prop <> regionOfStProp def
+R1738:1738 Iron.Language.SystemF2Effect.Store.Prop <> s var
+R1767:1770 Coq.Init.Datatypes <> Some constr
+R1791:1793 Coq.Init.Peano <> :nat_scope:x_'>'_x not
+R1777:1787 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion def
+R1789:1790 Iron.Language.SystemF2Effect.Store.Prop <> sp var
+R1818:1821 Coq.Init.Datatypes <> None constr
+R1828:1831 Coq.Init.Logic <> True ind
+R1970:1980 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion def
+R2010:2017 Iron.Data.List.Max <> max_list def
+R2020:2029 Iron.Data.List.Concat <> catOptions def
+R2032:2034 Coq.Lists.List <> map def
+R2036:2049 Iron.Language.SystemF2Effect.Store.Prop <> regionOfStProp def
+R2010:2017 Iron.Data.List.Max <> max_list def
+R2020:2029 Iron.Data.List.Concat <> catOptions def
+R2032:2034 Coq.Lists.List <> map def
+R2036:2049 Iron.Language.SystemF2Effect.Store.Prop <> regionOfStProp def
+R2081:2084 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R2073:2075 Coq.Init.Peano <> max def
+R2081:2084 Coq.Init.Peano <> :nat_scope:x_'>='_x not
+R2073:2075 Coq.Init.Peano <> max def
+R2123:2134 Iron.Data.List.Max <> max_ge_left1 thm
+R2123:2134 Iron.Data.List.Max <> max_ge_left1 thm
+R2203:2220 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion_weaken thm
+R2203:2220 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion_weaken thm
+prf 2305:2321 <> allocRegion_fresh
+R2339:2341 Coq.Init.Logic <> not def
+R2344:2345 Coq.Lists.List <> In def
+R2374:2375 Iron.Language.SystemF2Effect.Store.Prop <> sp var
+R2348:2354 Iron.Language.SystemF2Effect.Store.Prop <> SRegion constr
+R2357:2367 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion def
+R2369:2370 Iron.Language.SystemF2Effect.Store.Prop <> sp var
+R2403:2405 Coq.Init.Logic <> not def
+R2425:2441 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion_above thm
+R2425:2441 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion_above thm
+R2501:2517 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion_fresh thm
+prf 2588:2608 <> allocRegion_fresh_has
+R2668:2670 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2653:2662 Iron.Language.SystemF2Effect.Store.Prop <> hasSRegion def
+R2666:2667 Iron.Language.SystemF2Effect.Store.Prop <> sp var
+R2664:2664 Iron.Language.SystemF2Effect.Store.Prop <> p var
+R2671:2675 Coq.Init.Datatypes <> false constr
+R2631:2633 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2630:2630 Iron.Language.SystemF2Effect.Store.Prop <> p var
+R2634:2644 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion def
+R2646:2647 Iron.Language.SystemF2Effect.Store.Prop <> sp var
+R2711:2720 Iron.Language.SystemF2Effect.Store.Prop <> hasSRegion def
+R2732:2743 Iron.Data.List.Elem <> elem_get_not thm
+R2732:2743 Iron.Data.List.Elem <> elem_get_not thm
+R2755:2757 Coq.Init.Logic <> not def
+R2897:2902 Iron.Data.List.Base <> get_in thm
+R2897:2902 Iron.Data.List.Base <> get_in thm
+R2921:2923 Coq.Init.Logic <> not def
+R2926:2927 Coq.Lists.List <> In def
+R2930:2936 Iron.Language.SystemF2Effect.Store.Prop <> SRegion constr
+R2939:2949 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion def
+R2976:2992 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion_fresh thm
+R2921:2923 Coq.Init.Logic <> not def
+R2926:2927 Coq.Lists.List <> In def
+R2930:2936 Iron.Language.SystemF2Effect.Store.Prop <> SRegion constr
+R2939:2949 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion def
+R2976:2992 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion_fresh thm
+R0:-1 Iron.Language.SystemF2Effect.Store.Prop <> y var
+R3024:3044 Iron.Language.SystemF2Effect.Store.Prop <> allocRegion_fresh_has thm

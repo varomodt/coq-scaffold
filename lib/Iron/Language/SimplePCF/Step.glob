@@ -1,0 +1,202 @@
+DIGEST 1402c3e0154c32489a84a64221908b3e
+FIron.Language.SimplePCF.Step
+R16:50 Iron.Language.SimplePCF.SubstExpExp <> <> lib
+R68:94 Iron.Language.SimplePCF.Exp <> <> lib
+ind 377:383 <> exp_ctx
+constr 414:418 <> XcTop
+constr 451:456 <> XcApp1
+constr 617:622 <> XcApp2
+constr 697:702 <> XcSucc
+constr 748:753 <> XcPred
+constr 799:806 <> XcIsZero
+constr 850:853 <> XcIf
+R395:397 Iron.Language.SimplePCF.Exp <> exp ind
+R388:390 Iron.Language.SimplePCF.Exp <> exp ind
+R426:432 Iron.Language.SimplePCF.Step <> exp_ctx ind
+R444:444 Iron.Language.SimplePCF.Step <> x var
+R480:486 Iron.Language.SimplePCF.Step <> exp_ctx ind
+R499:502 Iron.Language.SimplePCF.Exp <> XApp constr
+R507:508 Iron.Language.SimplePCF.Step <> x2 var
+R504:505 Iron.Language.SimplePCF.Step <> xx var
+R662:668 Iron.Language.SimplePCF.Step <> exp_ctx ind
+R681:684 Iron.Language.SimplePCF.Exp <> XApp constr
+R689:690 Iron.Language.SimplePCF.Step <> xx var
+R686:687 Iron.Language.SimplePCF.Step <> v1 var
+R647:650 Iron.Language.SimplePCF.Exp <> wnfX ind
+R652:653 Iron.Language.SimplePCF.Step <> v1 var
+R713:719 Iron.Language.SimplePCF.Step <> exp_ctx ind
+R732:736 Iron.Language.SimplePCF.Exp <> XSucc constr
+R740:741 Iron.Language.SimplePCF.Step <> xx var
+R764:770 Iron.Language.SimplePCF.Step <> exp_ctx ind
+R783:787 Iron.Language.SimplePCF.Exp <> XPred constr
+R791:792 Iron.Language.SimplePCF.Step <> xx var
+R815:821 Iron.Language.SimplePCF.Step <> exp_ctx ind
+R834:840 Iron.Language.SimplePCF.Exp <> XIsZero constr
+R842:843 Iron.Language.SimplePCF.Step <> xx var
+R881:887 Iron.Language.SimplePCF.Step <> exp_ctx ind
+R900:902 Iron.Language.SimplePCF.Exp <> XIf constr
+R910:911 Iron.Language.SimplePCF.Step <> x3 var
+R907:908 Iron.Language.SimplePCF.Step <> x2 var
+R904:905 Iron.Language.SimplePCF.Step <> xx var
+R934:940 Iron.Language.SimplePCF.Step <> exp_ctx ind
+ind 1167:1170 <> STEP
+constr 1200:1208 <> EsContext
+constr 1366:1373 <> EsLamApp
+constr 1544:1548 <> EsFix
+constr 1720:1725 <> EsSucc
+constr 1899:1908 <> EsPredZero
+constr 2013:2022 <> EsPredSucc
+constr 2127:2138 <> EsIsZeroTrue
+constr 2180:2192 <> EsIsZeroFalse
+constr 2326:2333 <> EsIfThen
+constr 2421:2428 <> EsIfElse
+R1181:1183 Iron.Language.SimplePCF.Exp <> exp ind
+R1174:1176 Iron.Language.SimplePCF.Exp <> exp ind
+R1268:1271 Iron.Language.SimplePCF.Step <> STEP ind
+R1280:1280 Iron.Language.SimplePCF.Step <> C var
+R1282:1283 Iron.Language.SimplePCF.Step <> x' var
+R1274:1274 Iron.Language.SimplePCF.Step <> C var
+R1276:1276 Iron.Language.SimplePCF.Step <> x var
+R1252:1255 Iron.Language.SimplePCF.Step <> STEP ind
+R1259:1260 Iron.Language.SimplePCF.Step <> x' var
+R1257:1257 Iron.Language.SimplePCF.Step <> x var
+R1236:1242 Iron.Language.SimplePCF.Step <> exp_ctx ind
+R1244:1244 Iron.Language.SimplePCF.Step <> C var
+R1418:1421 Iron.Language.SimplePCF.Step <> STEP ind
+R1462:1467 Iron.Language.SimplePCF.Exp <> substX def
+R1474:1476 Iron.Language.SimplePCF.Step <> x12 var
+R1471:1472 Iron.Language.SimplePCF.Step <> v2 var
+R1424:1427 Iron.Language.SimplePCF.Exp <> XApp constr
+R1446:1447 Iron.Language.SimplePCF.Step <> v2 var
+R1432:1435 Iron.Language.SimplePCF.Exp <> XLam constr
+R1441:1443 Iron.Language.SimplePCF.Step <> x12 var
+R1437:1439 Iron.Language.SimplePCF.Step <> t11 var
+R1404:1407 Iron.Language.SimplePCF.Exp <> wnfX ind
+R1409:1410 Iron.Language.SimplePCF.Step <> v2 var
+R1577:1580 Iron.Language.SimplePCF.Step <> STEP ind
+R1609:1614 Iron.Language.SimplePCF.Exp <> substX def
+R1633:1635 Iron.Language.SimplePCF.Step <> x12 var
+R1619:1622 Iron.Language.SimplePCF.Exp <> XFix constr
+R1628:1630 Iron.Language.SimplePCF.Step <> x12 var
+R1624:1626 Iron.Language.SimplePCF.Step <> t11 var
+R1583:1586 Iron.Language.SimplePCF.Exp <> XFix constr
+R1592:1594 Iron.Language.SimplePCF.Step <> x12 var
+R1588:1590 Iron.Language.SimplePCF.Step <> t11 var
+R1748:1751 Iron.Language.SimplePCF.Step <> STEP ind
+R1771:1774 Iron.Language.SimplePCF.Exp <> XNat constr
+R1777:1777 Coq.Init.Datatypes <> S constr
+R1779:1779 Iron.Language.SimplePCF.Step <> n var
+R1754:1758 Iron.Language.SimplePCF.Exp <> XSucc constr
+R1761:1764 Iron.Language.SimplePCF.Exp <> XNat constr
+R1766:1766 Iron.Language.SimplePCF.Step <> n var
+R1917:1920 Iron.Language.SimplePCF.Step <> STEP ind
+R1940:1943 Iron.Language.SimplePCF.Exp <> XNat constr
+R1945:1945 Coq.Init.Datatypes <> O constr
+R1923:1927 Iron.Language.SimplePCF.Exp <> XPred constr
+R1930:1933 Iron.Language.SimplePCF.Exp <> XNat constr
+R1935:1935 Coq.Init.Datatypes <> O constr
+R2046:2049 Iron.Language.SimplePCF.Step <> STEP ind
+R2073:2076 Iron.Language.SimplePCF.Exp <> XNat constr
+R2078:2078 Iron.Language.SimplePCF.Step <> n var
+R2052:2056 Iron.Language.SimplePCF.Exp <> XPred constr
+R2059:2062 Iron.Language.SimplePCF.Exp <> XNat constr
+R2065:2065 Coq.Init.Datatypes <> S constr
+R2067:2067 Iron.Language.SimplePCF.Step <> n var
+R2146:2149 Iron.Language.SimplePCF.Step <> STEP ind
+R2170:2174 Iron.Language.SimplePCF.Exp <> XTrue constr
+R2152:2158 Iron.Language.SimplePCF.Exp <> XIsZero constr
+R2161:2164 Iron.Language.SimplePCF.Exp <> XNat constr
+R2166:2166 Coq.Init.Datatypes <> O constr
+R2215:2218 Iron.Language.SimplePCF.Step <> STEP ind
+R2243:2248 Iron.Language.SimplePCF.Exp <> XFalse constr
+R2221:2227 Iron.Language.SimplePCF.Exp <> XIsZero constr
+R2230:2233 Iron.Language.SimplePCF.Exp <> XNat constr
+R2236:2236 Coq.Init.Datatypes <> S constr
+R2238:2238 Iron.Language.SimplePCF.Step <> n var
+R2360:2363 Iron.Language.SimplePCF.Step <> STEP ind
+R2383:2384 Iron.Language.SimplePCF.Step <> x2 var
+R2366:2368 Iron.Language.SimplePCF.Exp <> XIf constr
+R2379:2380 Iron.Language.SimplePCF.Step <> x3 var
+R2376:2377 Iron.Language.SimplePCF.Step <> x2 var
+R2370:2374 Iron.Language.SimplePCF.Exp <> XTrue constr
+R2455:2458 Iron.Language.SimplePCF.Step <> STEP ind
+R2479:2480 Iron.Language.SimplePCF.Step <> x3 var
+R2461:2463 Iron.Language.SimplePCF.Exp <> XIf constr
+R2475:2476 Iron.Language.SimplePCF.Step <> x3 var
+R2472:2473 Iron.Language.SimplePCF.Step <> x2 var
+R2465:2470 Iron.Language.SimplePCF.Exp <> XFalse constr
+R2502:2505 Iron.Language.SimplePCF.Step <> STEP ind
+ind 2865:2869 <> STEPS
+constr 3103:3108 <> EsNone
+constr 3175:3180 <> EsStep
+constr 3286:3293 <> EsAppend
+R2880:2882 Iron.Language.SimplePCF.Exp <> exp ind
+R2873:2875 Iron.Language.SimplePCF.Exp <> exp ind
+R3132:3136 Iron.Language.SimplePCF.Step <> STEPS ind
+R3141:3142 Iron.Language.SimplePCF.Step <> x1 var
+R3138:3139 Iron.Language.SimplePCF.Step <> x1 var
+R3225:3229 Iron.Language.SimplePCF.Step <> STEPS ind
+R3234:3235 Iron.Language.SimplePCF.Step <> x2 var
+R3231:3232 Iron.Language.SimplePCF.Step <> x1 var
+R3207:3210 Iron.Language.SimplePCF.Step <> STEP ind
+R3216:3217 Iron.Language.SimplePCF.Step <> x2 var
+R3213:3214 Iron.Language.SimplePCF.Step <> x1 var
+R3356:3360 Iron.Language.SimplePCF.Step <> STEPS ind
+R3365:3366 Iron.Language.SimplePCF.Step <> x3 var
+R3362:3363 Iron.Language.SimplePCF.Step <> x1 var
+R3338:3342 Iron.Language.SimplePCF.Step <> STEPS ind
+R3347:3348 Iron.Language.SimplePCF.Step <> x3 var
+R3344:3345 Iron.Language.SimplePCF.Step <> x2 var
+R3323:3327 Iron.Language.SimplePCF.Step <> STEPS ind
+R3332:3333 Iron.Language.SimplePCF.Step <> x2 var
+R3329:3330 Iron.Language.SimplePCF.Step <> x1 var
+R3388:3392 Iron.Language.SimplePCF.Step <> STEPS ind
+prf 3445:3457 <> steps_context
+R3514:3518 Iron.Language.SimplePCF.Step <> STEPS ind
+R3528:3528 Iron.Language.SimplePCF.Step <> C var
+R3530:3532 Iron.Language.SimplePCF.Step <> x1' var
+R3521:3521 Iron.Language.SimplePCF.Step <> C var
+R3523:3524 Iron.Language.SimplePCF.Step <> x1 var
+R3497:3501 Iron.Language.SimplePCF.Step <> STEPS ind
+R3506:3508 Iron.Language.SimplePCF.Step <> x1' var
+R3503:3504 Iron.Language.SimplePCF.Step <> x1 var
+R3483:3489 Iron.Language.SimplePCF.Step <> exp_ctx ind
+R3491:3491 Iron.Language.SimplePCF.Step <> C var
+ind 3952:3957 <> STEPSL
+constr 3986:3992 <> EslNone
+constr 4032:4038 <> EslCons
+R3968:3970 Iron.Language.SimplePCF.Exp <> exp ind
+R3961:3963 Iron.Language.SimplePCF.Exp <> exp ind
+R4015:4020 Iron.Language.SimplePCF.Step <> STEPSL ind
+R4025:4026 Iron.Language.SimplePCF.Step <> x1 var
+R4022:4023 Iron.Language.SimplePCF.Step <> x1 var
+R4104:4109 Iron.Language.SimplePCF.Step <> STEPSL ind
+R4114:4115 Iron.Language.SimplePCF.Step <> x3 var
+R4111:4112 Iron.Language.SimplePCF.Step <> x1 var
+R4084:4089 Iron.Language.SimplePCF.Step <> STEPSL ind
+R4094:4095 Iron.Language.SimplePCF.Step <> x3 var
+R4091:4092 Iron.Language.SimplePCF.Step <> x2 var
+R4068:4071 Iron.Language.SimplePCF.Step <> STEP ind
+R4078:4079 Iron.Language.SimplePCF.Step <> x2 var
+R4075:4076 Iron.Language.SimplePCF.Step <> x1 var
+R4137:4142 Iron.Language.SimplePCF.Step <> STEPSL ind
+prf 4295:4306 <> stepsl_trans
+R4365:4370 Iron.Language.SimplePCF.Step <> STEPSL ind
+R4375:4376 Iron.Language.SimplePCF.Step <> x3 var
+R4372:4373 Iron.Language.SimplePCF.Step <> x1 var
+R4348:4353 Iron.Language.SimplePCF.Step <> STEPSL ind
+R4358:4359 Iron.Language.SimplePCF.Step <> x3 var
+R4355:4356 Iron.Language.SimplePCF.Step <> x2 var
+R4332:4337 Iron.Language.SimplePCF.Step <> STEPSL ind
+R4342:4343 Iron.Language.SimplePCF.Step <> x2 var
+R4339:4340 Iron.Language.SimplePCF.Step <> x1 var
+prf 4579:4593 <> stepsl_of_steps
+R4633:4638 Iron.Language.SimplePCF.Step <> STEPSL ind
+R4643:4644 Iron.Language.SimplePCF.Step <> x2 var
+R4640:4641 Iron.Language.SimplePCF.Step <> x1 var
+R4616:4620 Iron.Language.SimplePCF.Step <> STEPS ind
+R4626:4627 Iron.Language.SimplePCF.Step <> x2 var
+R4623:4624 Iron.Language.SimplePCF.Step <> x1 var
+R4688:4699 Iron.Language.SimplePCF.Step <> stepsl_trans thm
+R4688:4699 Iron.Language.SimplePCF.Step <> stepsl_trans thm
+R4688:4699 Iron.Language.SimplePCF.Step <> stepsl_trans thm

@@ -1,0 +1,48 @@
+DIGEST 23c8bf368b8442d4c035aa0b617d4f60
+FIron.Language.SimplePCF.Preservation
+R16:43 Iron.Language.SimplePCF.Step <> <> lib
+R61:86 Iron.Language.SimplePCF.Ty <> <> lib
+R104:138 Iron.Language.SimplePCF.SubstExpExp <> <> lib
+prf 265:276 <> preservation
+R333:336 Iron.Language.SimplePCF.Ty <> TYPE ind
+R345:345 Iron.Language.SimplePCF.Preservation <> t var
+R342:343 Iron.Language.SimplePCF.Preservation <> x' var
+R338:340 Coq.Init.Datatypes <> nil constr
+R318:321 Iron.Language.SimplePCF.Step <> STEP ind
+R326:327 Iron.Language.SimplePCF.Preservation <> x' var
+R324:324 Iron.Language.SimplePCF.Preservation <> x var
+R300:303 Iron.Language.SimplePCF.Ty <> TYPE ind
+R312:312 Iron.Language.SimplePCF.Preservation <> t var
+R309:309 Iron.Language.SimplePCF.Preservation <> x var
+R305:307 Coq.Init.Datatypes <> nil constr
+R547:559 Iron.Language.SimplePCF.SubstExpExp <> subst_exp_exp thm
+R605:617 Iron.Language.SimplePCF.SubstExpExp <> subst_exp_exp thm
+prf 736:753 <> preservation_steps
+R817:820 Iron.Language.SimplePCF.Ty <> TYPE ind
+R829:830 Iron.Language.SimplePCF.Preservation <> t1 var
+R826:827 Iron.Language.SimplePCF.Preservation <> x2 var
+R822:824 Coq.Init.Datatypes <> nil constr
+R798:802 Iron.Language.SimplePCF.Step <> STEPS ind
+R810:811 Iron.Language.SimplePCF.Preservation <> x2 var
+R807:808 Iron.Language.SimplePCF.Preservation <> x1 var
+R779:782 Iron.Language.SimplePCF.Ty <> TYPE ind
+R791:792 Iron.Language.SimplePCF.Preservation <> t1 var
+R788:789 Iron.Language.SimplePCF.Preservation <> x1 var
+R784:786 Coq.Init.Datatypes <> nil constr
+R890:901 Iron.Language.SimplePCF.Preservation <> preservation thm
+R890:901 Iron.Language.SimplePCF.Preservation <> preservation thm
+R890:901 Iron.Language.SimplePCF.Preservation <> preservation thm
+prf 1077:1095 <> preservation_stepsl
+R1159:1162 Iron.Language.SimplePCF.Ty <> TYPE ind
+R1171:1172 Iron.Language.SimplePCF.Preservation <> t1 var
+R1168:1169 Iron.Language.SimplePCF.Preservation <> x2 var
+R1164:1166 Coq.Init.Datatypes <> nil constr
+R1140:1145 Iron.Language.SimplePCF.Step <> STEPSL ind
+R1152:1153 Iron.Language.SimplePCF.Preservation <> x2 var
+R1149:1150 Iron.Language.SimplePCF.Preservation <> x1 var
+R1121:1124 Iron.Language.SimplePCF.Ty <> TYPE ind
+R1133:1134 Iron.Language.SimplePCF.Preservation <> t1 var
+R1130:1131 Iron.Language.SimplePCF.Preservation <> x1 var
+R1126:1128 Coq.Init.Datatypes <> nil constr
+R1232:1243 Iron.Language.SimplePCF.Preservation <> preservation thm
+R1232:1243 Iron.Language.SimplePCF.Preservation <> preservation thm

@@ -1,0 +1,234 @@
+DIGEST 93352fa7995a8ad45923e74a6acb28c8
+FIron.Language.SimpleRef.Exp
+R16:43 Iron.Language.SimpleRef.Base <> <> lib
+ind 141:142 <> ty
+constr 158:161 <> TCon
+constr 221:224 <> TFun
+constr 288:291 <> TRef
+R173:174 Iron.Language.SimpleRef.Exp <> ty ind
+R166:168 Coq.Init.Datatypes <> nat ind
+R242:243 Iron.Language.SimpleRef.Exp <> ty ind
+R236:237 Iron.Language.SimpleRef.Exp <> ty ind
+R229:230 Iron.Language.SimpleRef.Exp <> ty ind
+R303:304 Iron.Language.SimpleRef.Exp <> ty ind
+R296:297 Iron.Language.SimpleRef.Exp <> ty ind
+R371:372 Iron.Language.SimpleRef.Exp <> ty ind
+def 409:413 <> tUnit
+R419:422 Iron.Language.SimpleRef.Exp <> TCon constr
+def 463:467 <> tyenv
+R472:475 Coq.Init.Datatypes <> list ind
+R477:478 Iron.Language.SimpleRef.Exp <> ty ind
+def 513:517 <> stenv
+R522:525 Coq.Init.Datatypes <> list ind
+R527:528 Iron.Language.SimpleRef.Exp <> ty ind
+ind 638:640 <> exp
+constr 677:680 <> XCon
+constr 735:738 <> XVar
+constr 791:794 <> XLam
+constr 853:856 <> XApp
+constr 1206:1212 <> XNewRef
+constr 1272:1279 <> XReadRef
+constr 1331:1339 <> XWriteRef
+constr 1489:1492 <> XLoc
+R697:699 Iron.Language.SimpleRef.Exp <> exp ind
+R689:691 Coq.Init.Datatypes <> nat ind
+R755:757 Iron.Language.SimpleRef.Exp <> exp ind
+R747:749 Coq.Init.Datatypes <> nat ind
+R818:820 Iron.Language.SimpleRef.Exp <> exp ind
+R811:813 Iron.Language.SimpleRef.Exp <> exp ind
+R803:804 Iron.Language.SimpleRef.Exp <> ty ind
+R880:882 Iron.Language.SimpleRef.Exp <> exp ind
+R873:875 Iron.Language.SimpleRef.Exp <> exp ind
+R865:867 Iron.Language.SimpleRef.Exp <> exp ind
+R1225:1227 Iron.Language.SimpleRef.Exp <> exp ind
+R1218:1220 Iron.Language.SimpleRef.Exp <> exp ind
+R1291:1293 Iron.Language.SimpleRef.Exp <> exp ind
+R1284:1286 Iron.Language.SimpleRef.Exp <> exp ind
+R1357:1359 Iron.Language.SimpleRef.Exp <> exp ind
+R1350:1352 Iron.Language.SimpleRef.Exp <> exp ind
+R1343:1345 Iron.Language.SimpleRef.Exp <> exp ind
+R1509:1511 Iron.Language.SimpleRef.Exp <> exp ind
+R1501:1503 Coq.Init.Datatypes <> nat ind
+R1561:1563 Iron.Language.SimpleRef.Exp <> exp ind
+def 1612:1616 <> xUnit
+R1621:1624 Iron.Language.SimpleRef.Exp <> XCon constr
+R1641:1645 Iron.Language.SimpleRef.Exp <> xUnit def
+def 1800:1803 <> heap
+R1808:1811 Coq.Init.Datatypes <> list ind
+R1813:1815 Iron.Language.SimpleRef.Exp <> exp ind
+R1830:1833 Iron.Language.SimpleRef.Exp <> heap def
+ind 1966:1969 <> wnfX
+constr 1991:1998 <> Wnf_XCon
+constr 2038:2045 <> Wnf_XVar
+constr 2086:2093 <> Wnf_XLam
+constr 2140:2147 <> Wnf_XLoc
+R1973:1975 Iron.Language.SimpleRef.Exp <> exp ind
+R2020:2023 Iron.Language.SimpleRef.Exp <> wnfX ind
+R2026:2029 Iron.Language.SimpleRef.Exp <> XCon constr
+R2031:2031 Iron.Language.SimpleRef.Exp <> n var
+R2067:2070 Iron.Language.SimpleRef.Exp <> wnfX ind
+R2073:2076 Iron.Language.SimpleRef.Exp <> XVar constr
+R2078:2078 Iron.Language.SimpleRef.Exp <> i var
+R2118:2121 Iron.Language.SimpleRef.Exp <> wnfX ind
+R2124:2127 Iron.Language.SimpleRef.Exp <> XLam constr
+R2132:2133 Iron.Language.SimpleRef.Exp <> x2 var
+R2129:2130 Iron.Language.SimpleRef.Exp <> t1 var
+R2168:2171 Iron.Language.SimpleRef.Exp <> wnfX ind
+R2174:2177 Iron.Language.SimpleRef.Exp <> XLoc constr
+R2179:2179 Iron.Language.SimpleRef.Exp <> l var
+R2201:2204 Iron.Language.SimpleRef.Exp <> wnfX ind
+def 2288:2290 <> wfX
+R2297:2301 Iron.Language.SimpleRef.Exp <> tyenv def
+R2309:2311 Iron.Language.SimpleRef.Exp <> exp ind
+R2331:2332 Iron.Language.SimpleRef.Exp <> xx var
+R2344:2347 Iron.Language.SimpleRef.Exp <> XCon constr
+R2363:2366 Coq.Init.Logic <> True ind
+R2371:2374 Iron.Language.SimpleRef.Exp <> XVar constr
+R2390:2396 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R2398:2399 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R2408:2410 Coq.Init.Logic <> :type_scope:x_'='_x not
+R2400:2402 Iron.Data.List.Base <> get def
+R2406:2407 Iron.Language.SimpleRef.Exp <> te var
+R2411:2414 Coq.Init.Datatypes <> Some constr
+R2421:2424 Iron.Language.SimpleRef.Exp <> XLam constr
+R2440:2442 Iron.Language.SimpleRef.Exp <> wfX def
+R2447:2450 Iron.Data.List.Base <> ::x_':>'_x not
+R2445:2446 Iron.Language.SimpleRef.Exp <> te var
+R2459:2462 Iron.Language.SimpleRef.Exp <> XApp constr
+R2487:2490 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2478:2480 Iron.Language.SimpleRef.Exp <> wfX def
+R2482:2483 Iron.Language.SimpleRef.Exp <> te var
+R2491:2493 Iron.Language.SimpleRef.Exp <> wfX def
+R2495:2496 Iron.Language.SimpleRef.Exp <> te var
+R2504:2510 Iron.Language.SimpleRef.Exp <> XNewRef constr
+R2523:2525 Iron.Language.SimpleRef.Exp <> wfX def
+R2527:2528 Iron.Language.SimpleRef.Exp <> te var
+R2535:2542 Iron.Language.SimpleRef.Exp <> XReadRef constr
+R2554:2556 Iron.Language.SimpleRef.Exp <> wfX def
+R2558:2559 Iron.Language.SimpleRef.Exp <> te var
+R2566:2574 Iron.Language.SimpleRef.Exp <> XWriteRef constr
+R2594:2597 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2585:2587 Iron.Language.SimpleRef.Exp <> wfX def
+R2589:2590 Iron.Language.SimpleRef.Exp <> te var
+R2598:2600 Iron.Language.SimpleRef.Exp <> wfX def
+R2602:2603 Iron.Language.SimpleRef.Exp <> te var
+R2611:2614 Iron.Language.SimpleRef.Exp <> XLoc constr
+R2630:2633 Coq.Init.Logic <> True ind
+def 2723:2729 <> closedX
+R2736:2738 Iron.Language.SimpleRef.Exp <> exp ind
+R2752:2754 Iron.Language.SimpleRef.Exp <> wfX def
+R2760:2761 Iron.Language.SimpleRef.Exp <> xx var
+R2756:2758 Coq.Init.Datatypes <> nil constr
+R2776:2782 Iron.Language.SimpleRef.Exp <> closedX def
+def 2866:2870 <> value
+R2877:2879 Iron.Language.SimpleRef.Exp <> exp ind
+R2892:2895 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R2886:2889 Iron.Language.SimpleRef.Exp <> wnfX ind
+R2891:2891 Iron.Language.SimpleRef.Exp <> x var
+R2896:2902 Iron.Language.SimpleRef.Exp <> closedX def
+R2904:2904 Iron.Language.SimpleRef.Exp <> x var
+prf 2914:2923 <> value_wnfX
+R2952:2955 Iron.Language.SimpleRef.Exp <> wnfX ind
+R2957:2958 Iron.Language.SimpleRef.Exp <> xx var
+R2940:2944 Iron.Language.SimpleRef.Exp <> value def
+R2946:2947 Iron.Language.SimpleRef.Exp <> xx var
+R3012:3021 Iron.Language.SimpleRef.Exp <> value_wnfX thm
+prf 3031:3043 <> value_closedX
+R3072:3078 Iron.Language.SimpleRef.Exp <> closedX def
+R3080:3081 Iron.Language.SimpleRef.Exp <> xx var
+R3060:3064 Iron.Language.SimpleRef.Exp <> value def
+R3066:3067 Iron.Language.SimpleRef.Exp <> xx var
+R3135:3147 Iron.Language.SimpleRef.Exp <> value_closedX thm
+def 3561:3565 <> liftX
+R3573:3575 Coq.Init.Datatypes <> nat ind
+R3633:3635 Iron.Language.SimpleRef.Exp <> exp ind
+R3694:3696 Iron.Language.SimpleRef.Exp <> exp ind
+R3708:3709 Iron.Language.SimpleRef.Exp <> xx var
+R3724:3727 Iron.Language.SimpleRef.Exp <> XCon constr
+R3738:3741 Iron.Language.SimpleRef.Exp <> XCon constr
+R3753:3756 Iron.Language.SimpleRef.Exp <> XVar constr
+R3775:3783 Coq.Arith.Compare_dec <> le_gt_dec def
+R3785:3785 Iron.Language.SimpleRef.Exp <> d var
+R4035:4036 Iron.Language.SimpleRef.Exp <> xx var
+R3878:3881 Iron.Language.SimpleRef.Exp <> XVar constr
+R3884:3884 Coq.Init.Datatypes <> S constr
+R4219:4222 Iron.Language.SimpleRef.Exp <> XLam constr
+R4237:4240 Iron.Language.SimpleRef.Exp <> XLam constr
+R4246:4250 Iron.Language.SimpleRef.Exp <> liftX def
+R4253:4253 Coq.Init.Datatypes <> S constr
+R4255:4255 Iron.Language.SimpleRef.Exp <> d var
+R4270:4273 Iron.Language.SimpleRef.Exp <> XApp constr
+R4288:4291 Iron.Language.SimpleRef.Exp <> XApp constr
+R4309:4313 Iron.Language.SimpleRef.Exp <> liftX def
+R4315:4315 Iron.Language.SimpleRef.Exp <> d var
+R4296:4300 Iron.Language.SimpleRef.Exp <> liftX def
+R4302:4302 Iron.Language.SimpleRef.Exp <> d var
+R4329:4335 Iron.Language.SimpleRef.Exp <> XNewRef constr
+R4348:4354 Iron.Language.SimpleRef.Exp <> XNewRef constr
+R4357:4361 Iron.Language.SimpleRef.Exp <> liftX def
+R4363:4363 Iron.Language.SimpleRef.Exp <> d var
+R4377:4384 Iron.Language.SimpleRef.Exp <> XReadRef constr
+R4396:4403 Iron.Language.SimpleRef.Exp <> XReadRef constr
+R4406:4410 Iron.Language.SimpleRef.Exp <> liftX def
+R4412:4412 Iron.Language.SimpleRef.Exp <> d var
+R4427:4435 Iron.Language.SimpleRef.Exp <> XWriteRef constr
+R4450:4458 Iron.Language.SimpleRef.Exp <> XWriteRef constr
+R4474:4478 Iron.Language.SimpleRef.Exp <> liftX def
+R4480:4480 Iron.Language.SimpleRef.Exp <> d var
+R4461:4465 Iron.Language.SimpleRef.Exp <> liftX def
+R4467:4467 Iron.Language.SimpleRef.Exp <> d var
+R4494:4497 Iron.Language.SimpleRef.Exp <> XLoc constr
+R4511:4514 Iron.Language.SimpleRef.Exp <> XLoc constr
+def 4670:4675 <> substX
+R4682:4684 Coq.Init.Datatypes <> nat ind
+R4742:4744 Iron.Language.SimpleRef.Exp <> exp ind
+R4795:4797 Iron.Language.SimpleRef.Exp <> exp ind
+R4846:4848 Iron.Language.SimpleRef.Exp <> exp ind
+R4861:4862 Iron.Language.SimpleRef.Exp <> xx var
+R4876:4879 Iron.Language.SimpleRef.Exp <> XCon constr
+R4890:4893 Iron.Language.SimpleRef.Exp <> XCon constr
+R4904:4907 Iron.Language.SimpleRef.Exp <> XVar constr
+R4926:4936 Coq.Arith.Compare_dec <> nat_compare def
+R4941:4941 Iron.Language.SimpleRef.Exp <> d var
+R5017:5018 Coq.Init.Datatypes <> Eq constr
+R5024:5024 Iron.Language.SimpleRef.Exp <> u var
+R5191:5192 Coq.Init.Datatypes <> Gt constr
+R5198:5201 Iron.Language.SimpleRef.Exp <> XVar constr
+R5206:5208 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R5279:5280 Coq.Init.Datatypes <> Lt constr
+R5286:5289 Iron.Language.SimpleRef.Exp <> XVar constr
+R5489:5492 Iron.Language.SimpleRef.Exp <> XLam constr
+R5507:5510 Iron.Language.SimpleRef.Exp <> XLam constr
+R5516:5521 Iron.Language.SimpleRef.Exp <> substX def
+R5530:5534 Iron.Language.SimpleRef.Exp <> liftX def
+R5538:5538 Iron.Language.SimpleRef.Exp <> u var
+R5524:5524 Coq.Init.Datatypes <> S constr
+R5526:5526 Iron.Language.SimpleRef.Exp <> d var
+R5553:5556 Iron.Language.SimpleRef.Exp <> XApp constr
+R5572:5575 Iron.Language.SimpleRef.Exp <> XApp constr
+R5594:5599 Iron.Language.SimpleRef.Exp <> substX def
+R5603:5603 Iron.Language.SimpleRef.Exp <> u var
+R5601:5601 Iron.Language.SimpleRef.Exp <> d var
+R5578:5583 Iron.Language.SimpleRef.Exp <> substX def
+R5587:5587 Iron.Language.SimpleRef.Exp <> u var
+R5585:5585 Iron.Language.SimpleRef.Exp <> d var
+R5617:5623 Iron.Language.SimpleRef.Exp <> XNewRef constr
+R5635:5641 Iron.Language.SimpleRef.Exp <> XNewRef constr
+R5644:5649 Iron.Language.SimpleRef.Exp <> substX def
+R5653:5653 Iron.Language.SimpleRef.Exp <> u var
+R5651:5651 Iron.Language.SimpleRef.Exp <> d var
+R5667:5674 Iron.Language.SimpleRef.Exp <> XReadRef constr
+R5686:5693 Iron.Language.SimpleRef.Exp <> XReadRef constr
+R5696:5701 Iron.Language.SimpleRef.Exp <> substX def
+R5705:5705 Iron.Language.SimpleRef.Exp <> u var
+R5703:5703 Iron.Language.SimpleRef.Exp <> d var
+R5719:5727 Iron.Language.SimpleRef.Exp <> XWriteRef constr
+R5742:5750 Iron.Language.SimpleRef.Exp <> XWriteRef constr
+R5769:5774 Iron.Language.SimpleRef.Exp <> substX def
+R5778:5778 Iron.Language.SimpleRef.Exp <> u var
+R5776:5776 Iron.Language.SimpleRef.Exp <> d var
+R5753:5758 Iron.Language.SimpleRef.Exp <> substX def
+R5762:5762 Iron.Language.SimpleRef.Exp <> u var
+R5760:5760 Iron.Language.SimpleRef.Exp <> d var
+R5796:5799 Iron.Language.SimpleRef.Exp <> XLoc constr
+R5810:5813 Iron.Language.SimpleRef.Exp <> XLoc constr

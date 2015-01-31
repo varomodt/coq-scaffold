@@ -1,0 +1,82 @@
+DIGEST bacf57df5522ba99a19f6d217b9d1240
+FIron.Language.SimpleData.Def
+R16:42 Iron.Language.SimpleData.Ty <> <> lib
+ind 81:87 <> datacon
+constr 102:108 <> DataCon
+R122:128 Iron.Language.SimpleData.Def <> datacon ind
+R115:117 Coq.Init.Datatypes <> nat ind
+R149:155 Iron.Language.SimpleData.Def <> datacon ind
+def 169:179 <> datacon_beq
+R202:203 Iron.Language.SimpleData.Def <> t2 var
+R198:199 Iron.Language.SimpleData.Def <> t1 var
+R214:220 Iron.Language.SimpleData.Def <> DataCon constr
+R226:232 Iron.Language.SimpleData.Def <> DataCon constr
+R240:246 Coq.Arith.EqNat <> beq_nat def
+ind 355:357 <> def
+constr 418:428 <> DefDataType
+constr 608:614 <> DefData
+R560:562 Iron.Language.SimpleData.Def <> def ind
+R492:495 Coq.Init.Datatypes <> list ind
+R497:503 Iron.Language.SimpleData.Def <> datacon ind
+R437:441 Iron.Language.SimpleData.Ty <> tycon ind
+R768:770 Iron.Language.SimpleData.Def <> def ind
+R717:718 Iron.Language.SimpleData.Ty <> ty ind
+R673:676 Coq.Init.Datatypes <> list ind
+R678:679 Iron.Language.SimpleData.Ty <> ty ind
+R623:629 Iron.Language.SimpleData.Def <> datacon ind
+R791:793 Iron.Language.SimpleData.Def <> def ind
+def 907:910 <> defs
+R916:919 Coq.Init.Datatypes <> list ind
+R921:923 Iron.Language.SimpleData.Def <> def ind
+def 1028:1037 <> getTypeDef
+R1044:1048 Iron.Language.SimpleData.Ty <> tycon ind
+R1056:1059 Iron.Language.SimpleData.Def <> defs def
+R1064:1069 Coq.Init.Datatypes <> option ind
+R1071:1073 Iron.Language.SimpleData.Def <> def ind
+R1086:1087 Iron.Language.SimpleData.Def <> ds var
+R1101:1104 Iron.Data.List.Base <> ::x_':>'_x not
+R1105:1115 Iron.Language.SimpleData.Def <> DefDataType constr
+R1135:1143 Iron.Language.SimpleData.Ty <> tycon_beq def
+R1145:1146 Iron.Language.SimpleData.Def <> tc var
+R1182:1191 Iron.Language.SimpleData.Def <> getTypeDef def
+R1193:1194 Iron.Language.SimpleData.Def <> tc var
+R1164:1167 Coq.Init.Datatypes <> Some constr
+R1207:1210 Iron.Data.List.Base <> ::x_':>'_x not
+R1216:1225 Iron.Language.SimpleData.Def <> getTypeDef def
+R1227:1228 Iron.Language.SimpleData.Def <> tc var
+R1249:1252 Coq.Init.Datatypes <> None constr
+def 1363:1372 <> getDataDef
+R1379:1385 Iron.Language.SimpleData.Def <> datacon ind
+R1393:1396 Iron.Language.SimpleData.Def <> defs def
+R1401:1406 Coq.Init.Datatypes <> option ind
+R1408:1410 Iron.Language.SimpleData.Def <> def ind
+R1423:1424 Iron.Language.SimpleData.Def <> ds var
+R1438:1441 Iron.Data.List.Base <> ::x_':>'_x not
+R1442:1448 Iron.Language.SimpleData.Def <> DefData constr
+R1470:1480 Iron.Language.SimpleData.Def <> datacon_beq def
+R1482:1483 Iron.Language.SimpleData.Def <> dc var
+R1519:1528 Iron.Language.SimpleData.Def <> getDataDef def
+R1530:1531 Iron.Language.SimpleData.Def <> dc var
+R1501:1504 Coq.Init.Datatypes <> Some constr
+R1544:1547 Iron.Data.List.Base <> ::x_':>'_x not
+R1553:1562 Iron.Language.SimpleData.Def <> getDataDef def
+R1564:1565 Iron.Language.SimpleData.Def <> dc var
+R1586:1589 Coq.Init.Datatypes <> None constr
+prf 1651:1664 <> datacon_beq_eq
+R1721:1723 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1719:1720 Iron.Language.SimpleData.Def <> dc var
+R1724:1726 Iron.Language.SimpleData.Def <> dc' var
+R1693:1695 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1689:1692 Coq.Init.Datatypes <> true constr
+R1696:1706 Iron.Language.SimpleData.Def <> datacon_beq def
+R1711:1713 Iron.Language.SimpleData.Def <> dc' var
+R1708:1709 Iron.Language.SimpleData.Def <> dc var
+R1794:1803 Coq.Arith.EqNat <> beq_nat_eq def
+R1794:1803 Coq.Arith.EqNat <> beq_nat_eq def
+prf 1877:1893 <> datacon_beq_false
+R1945:1949 Coq.Init.Logic <> False ind
+R1919:1921 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1914:1918 Coq.Init.Datatypes <> false constr
+R1922:1932 Iron.Language.SimpleData.Def <> datacon_beq def
+R1937:1938 Iron.Language.SimpleData.Def <> dc var
+R1934:1935 Iron.Language.SimpleData.Def <> dc var

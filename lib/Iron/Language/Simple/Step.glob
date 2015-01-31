@@ -1,0 +1,124 @@
+DIGEST 50510d1e5f1a810c5b7f2585bfb19ee0
+FIron.Language.Simple.Step
+R16:47 Iron.Language.Simple.SubstExpExp <> <> lib
+R65:88 Iron.Language.Simple.Exp <> <> lib
+ind 388:394 <> exp_ctx
+constr 425:429 <> XcTop
+constr 462:467 <> XcApp1
+constr 526:531 <> XcApp2
+R406:408 Iron.Language.Simple.Exp <> exp ind
+R399:401 Iron.Language.Simple.Exp <> exp ind
+R437:443 Iron.Language.Simple.Step <> exp_ctx ind
+R455:455 Iron.Language.Simple.Step <> x var
+R491:497 Iron.Language.Simple.Step <> exp_ctx ind
+R510:513 Iron.Language.Simple.Exp <> XApp constr
+R518:519 Iron.Language.Simple.Step <> x2 var
+R515:516 Iron.Language.Simple.Step <> xx var
+R572:578 Iron.Language.Simple.Step <> exp_ctx ind
+R591:594 Iron.Language.Simple.Exp <> XApp constr
+R599:600 Iron.Language.Simple.Step <> xx var
+R596:597 Iron.Language.Simple.Step <> v1 var
+R556:560 Iron.Language.Simple.Exp <> value def
+R562:563 Iron.Language.Simple.Step <> v1 var
+R623:629 Iron.Language.Simple.Step <> exp_ctx ind
+ind 672:675 <> STEP
+constr 737:745 <> EsContext
+constr 857:864 <> EsLamApp
+R686:688 Iron.Language.Simple.Exp <> exp ind
+R679:681 Iron.Language.Simple.Exp <> exp ind
+R806:809 Iron.Language.Simple.Step <> STEP ind
+R818:818 Iron.Language.Simple.Step <> C var
+R820:821 Iron.Language.Simple.Step <> x' var
+R812:812 Iron.Language.Simple.Step <> C var
+R814:814 Iron.Language.Simple.Step <> x var
+R790:793 Iron.Language.Simple.Step <> STEP ind
+R797:798 Iron.Language.Simple.Step <> x' var
+R795:795 Iron.Language.Simple.Step <> x var
+R774:780 Iron.Language.Simple.Step <> exp_ctx ind
+R782:782 Iron.Language.Simple.Step <> C var
+R912:915 Iron.Language.Simple.Step <> STEP ind
+R954:959 Iron.Language.Simple.Exp <> substX def
+R966:968 Iron.Language.Simple.Step <> x12 var
+R963:964 Iron.Language.Simple.Step <> v2 var
+R918:921 Iron.Language.Simple.Exp <> XApp constr
+R938:939 Iron.Language.Simple.Step <> v2 var
+R924:927 Iron.Language.Simple.Exp <> XLam constr
+R933:935 Iron.Language.Simple.Step <> x12 var
+R929:931 Iron.Language.Simple.Step <> t11 var
+R897:901 Iron.Language.Simple.Exp <> value def
+R903:904 Iron.Language.Simple.Step <> v2 var
+R991:994 Iron.Language.Simple.Step <> STEP ind
+ind 1345:1349 <> STEPS
+constr 1583:1588 <> EsNone
+constr 1655:1660 <> EsStep
+constr 1766:1773 <> EsAppend
+R1360:1362 Iron.Language.Simple.Exp <> exp ind
+R1353:1355 Iron.Language.Simple.Exp <> exp ind
+R1612:1616 Iron.Language.Simple.Step <> STEPS ind
+R1621:1622 Iron.Language.Simple.Step <> x1 var
+R1618:1619 Iron.Language.Simple.Step <> x1 var
+R1705:1709 Iron.Language.Simple.Step <> STEPS ind
+R1714:1715 Iron.Language.Simple.Step <> x2 var
+R1711:1712 Iron.Language.Simple.Step <> x1 var
+R1687:1690 Iron.Language.Simple.Step <> STEP ind
+R1696:1697 Iron.Language.Simple.Step <> x2 var
+R1693:1694 Iron.Language.Simple.Step <> x1 var
+R1836:1840 Iron.Language.Simple.Step <> STEPS ind
+R1845:1846 Iron.Language.Simple.Step <> x3 var
+R1842:1843 Iron.Language.Simple.Step <> x1 var
+R1818:1822 Iron.Language.Simple.Step <> STEPS ind
+R1827:1828 Iron.Language.Simple.Step <> x3 var
+R1824:1825 Iron.Language.Simple.Step <> x2 var
+R1803:1807 Iron.Language.Simple.Step <> STEPS ind
+R1812:1813 Iron.Language.Simple.Step <> x2 var
+R1809:1810 Iron.Language.Simple.Step <> x1 var
+R1868:1872 Iron.Language.Simple.Step <> STEPS ind
+prf 2051:2063 <> steps_context
+R2120:2124 Iron.Language.Simple.Step <> STEPS ind
+R2134:2134 Iron.Language.Simple.Step <> C var
+R2136:2138 Iron.Language.Simple.Step <> x1' var
+R2127:2127 Iron.Language.Simple.Step <> C var
+R2129:2130 Iron.Language.Simple.Step <> x1 var
+R2103:2107 Iron.Language.Simple.Step <> STEPS ind
+R2112:2114 Iron.Language.Simple.Step <> x1' var
+R2109:2110 Iron.Language.Simple.Step <> x1 var
+R2089:2095 Iron.Language.Simple.Step <> exp_ctx ind
+R2097:2097 Iron.Language.Simple.Step <> C var
+ind 2549:2554 <> STEPSL
+constr 2584:2590 <> EslNone
+constr 2630:2636 <> EslCons
+R2565:2567 Iron.Language.Simple.Exp <> exp ind
+R2558:2560 Iron.Language.Simple.Exp <> exp ind
+R2613:2618 Iron.Language.Simple.Step <> STEPSL ind
+R2623:2624 Iron.Language.Simple.Step <> x1 var
+R2620:2621 Iron.Language.Simple.Step <> x1 var
+R2702:2707 Iron.Language.Simple.Step <> STEPSL ind
+R2712:2713 Iron.Language.Simple.Step <> x3 var
+R2709:2710 Iron.Language.Simple.Step <> x1 var
+R2682:2687 Iron.Language.Simple.Step <> STEPSL ind
+R2692:2693 Iron.Language.Simple.Step <> x3 var
+R2689:2690 Iron.Language.Simple.Step <> x2 var
+R2666:2669 Iron.Language.Simple.Step <> STEP ind
+R2676:2677 Iron.Language.Simple.Step <> x2 var
+R2673:2674 Iron.Language.Simple.Step <> x1 var
+R2735:2740 Iron.Language.Simple.Step <> STEPSL ind
+prf 2893:2904 <> stepsl_trans
+R2963:2968 Iron.Language.Simple.Step <> STEPSL ind
+R2973:2974 Iron.Language.Simple.Step <> x3 var
+R2970:2971 Iron.Language.Simple.Step <> x1 var
+R2946:2951 Iron.Language.Simple.Step <> STEPSL ind
+R2956:2957 Iron.Language.Simple.Step <> x3 var
+R2953:2954 Iron.Language.Simple.Step <> x2 var
+R2930:2935 Iron.Language.Simple.Step <> STEPSL ind
+R2940:2941 Iron.Language.Simple.Step <> x2 var
+R2937:2938 Iron.Language.Simple.Step <> x1 var
+prf 3197:3211 <> stepsl_of_steps
+R3251:3256 Iron.Language.Simple.Step <> STEPSL ind
+R3261:3262 Iron.Language.Simple.Step <> x2 var
+R3258:3259 Iron.Language.Simple.Step <> x1 var
+R3234:3238 Iron.Language.Simple.Step <> STEPS ind
+R3244:3245 Iron.Language.Simple.Step <> x2 var
+R3241:3242 Iron.Language.Simple.Step <> x1 var
+R3317:3328 Iron.Language.Simple.Step <> stepsl_trans thm
+R3317:3328 Iron.Language.Simple.Step <> stepsl_trans thm
+R3317:3328 Iron.Language.Simple.Step <> stepsl_trans thm

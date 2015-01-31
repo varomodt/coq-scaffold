@@ -1,0 +1,65 @@
+DIGEST f349dd47701b95a6049bdd7a9b33a3fb
+FIron.Language.SystemF.Preservation
+R16:41 Iron.Language.SystemF.Step <> <> lib
+R59:91 Iron.Language.SystemF.SubstExpExp <> <> lib
+R109:142 Iron.Language.SystemF.SubstTypeExp <> <> lib
+R160:194 Iron.Language.SystemF.SubstTypeType <> <> lib
+R212:240 Iron.Language.SystemF.TyJudge <> <> lib
+prf 322:333 <> preservation
+R396:399 Iron.Language.SystemF.TyJudge <> TYPE ind
+R410:410 Iron.Language.SystemF.Preservation <> t var
+R407:408 Iron.Language.SystemF.Preservation <> x' var
+R404:405 Iron.Language.SystemF.Preservation <> te var
+R401:402 Iron.Language.SystemF.Preservation <> ke var
+R382:385 Iron.Language.SystemF.Step <> STEP ind
+R389:390 Iron.Language.SystemF.Preservation <> x' var
+R387:387 Iron.Language.SystemF.Preservation <> x var
+R363:366 Iron.Language.SystemF.TyJudge <> TYPE ind
+R376:376 Iron.Language.SystemF.Preservation <> t var
+R374:374 Iron.Language.SystemF.Preservation <> x var
+R371:372 Iron.Language.SystemF.Preservation <> te var
+R368:369 Iron.Language.SystemF.Preservation <> ke var
+R639:654 Iron.Language.SystemF.SubstTypeExp <> subst_type_value thm
+R639:654 Iron.Language.SystemF.SubstTypeExp <> subst_type_value thm
+R681:694 Iron.Language.SystemF.TyEnv <> substTE_liftTE thm
+R681:694 Iron.Language.SystemF.TyEnv <> substTE_liftTE thm
+R737:741 Iron.Language.SystemF.TyJudge <> TYAPP constr
+R737:741 Iron.Language.SystemF.TyJudge <> TYAPP constr
+R877:893 Iron.Language.SystemF.SubstExpExp <> subst_value_value thm
+R877:893 Iron.Language.SystemF.SubstExpExp <> subst_value_value thm
+R937:941 Iron.Language.SystemF.TyJudge <> TYApp constr
+R937:941 Iron.Language.SystemF.TyJudge <> TYApp constr
+R980:984 Iron.Language.SystemF.TyJudge <> TYApp constr
+R980:984 Iron.Language.SystemF.TyJudge <> TYApp constr
+prf 1115:1132 <> preservation_steps
+R1197:1200 Iron.Language.SystemF.TyJudge <> TYPE ind
+R1213:1214 Iron.Language.SystemF.Preservation <> t1 var
+R1210:1211 Iron.Language.SystemF.Preservation <> x2 var
+R1206:1208 Coq.Init.Datatypes <> nil constr
+R1202:1204 Coq.Init.Datatypes <> nil constr
+R1181:1185 Iron.Language.SystemF.Step <> STEPS ind
+R1190:1191 Iron.Language.SystemF.Preservation <> x2 var
+R1187:1188 Iron.Language.SystemF.Preservation <> x1 var
+R1158:1161 Iron.Language.SystemF.TyJudge <> TYPE ind
+R1174:1175 Iron.Language.SystemF.Preservation <> t1 var
+R1171:1172 Iron.Language.SystemF.Preservation <> x1 var
+R1167:1169 Coq.Init.Datatypes <> nil constr
+R1163:1165 Coq.Init.Datatypes <> nil constr
+R1265:1276 Iron.Language.SystemF.Preservation <> preservation thm
+R1265:1276 Iron.Language.SystemF.Preservation <> preservation thm
+prf 1460:1478 <> preservation_stepsl
+R1544:1547 Iron.Language.SystemF.TyJudge <> TYPE ind
+R1560:1561 Iron.Language.SystemF.Preservation <> t1 var
+R1557:1558 Iron.Language.SystemF.Preservation <> x2 var
+R1553:1555 Coq.Init.Datatypes <> nil constr
+R1549:1551 Coq.Init.Datatypes <> nil constr
+R1527:1532 Iron.Language.SystemF.Step <> STEPSL ind
+R1537:1538 Iron.Language.SystemF.Preservation <> x2 var
+R1534:1535 Iron.Language.SystemF.Preservation <> x1 var
+R1504:1507 Iron.Language.SystemF.TyJudge <> TYPE ind
+R1520:1521 Iron.Language.SystemF.Preservation <> t1 var
+R1517:1518 Iron.Language.SystemF.Preservation <> x1 var
+R1513:1515 Coq.Init.Datatypes <> nil constr
+R1509:1511 Coq.Init.Datatypes <> nil constr
+R1631:1642 Iron.Language.SystemF.Preservation <> preservation thm
+R1631:1642 Iron.Language.SystemF.Preservation <> preservation thm

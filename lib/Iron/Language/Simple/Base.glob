@@ -1,0 +1,17 @@
+DIGEST 2c317ae8b44a532c512611006a74709c
+FIron.Language.Simple.Base
+R16:29 Iron.Data.List <> <> lib
+R47:59 Iron.Data.Nat <> <> lib
+R77:90 Iron.Norm.List <> <> lib
+R108:116 Iron.Norm <> <> lib
+R134:150 Iron.Tactics.Rip2 <> <> lib
+R168:188 Iron.Tactics.Rewrite2 <> <> lib
+R206:222 Iron.Tactics.Case <> <> lib
+R240:256 Iron.Tactics.Nope <> <> lib
+R274:291 Iron.Tactics.Break <> <> lib
+R309:326 Iron.Tactics.Short <> <> lib
+R344:360 Iron.Tactics.Comb <> <> lib
+R378:394 Iron.Tactics.Have <> <> lib
+R412:434 Iron.Tactics.LibTactics <> <> lib
+R452:472 Coq.Arith.Compare_dec <> <> lib
+R490:523 Coq.Logic.FunctionalExtensionality <> <> lib

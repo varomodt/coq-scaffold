@@ -1,0 +1,10 @@
+DIGEST fac48f80953bced7066fb6a5eed005d9
+FIron.Language.SystemF.Ki
+R16:41 Iron.Language.SystemF.Base <> <> lib
+ind 79:80 <> ki
+constr 95:99 <> KStar
+R105:106 Iron.Language.SystemF.Ki <> ki ind
+def 147:151 <> kienv
+R156:159 Coq.Init.Datatypes <> list ind
+R161:162 Iron.Language.SystemF.Ki <> ki ind
+R177:181 Iron.Language.SystemF.Ki <> kienv def

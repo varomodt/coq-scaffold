@@ -1,0 +1,118 @@
+DIGEST e02e392b809465a7556b25e096b0474a
+FIron.Language.SystemF2.TyEnv
+R16:40 Iron.Language.SystemF2.Ty <> <> lib
+def 79:83 <> tyenv
+R88:91 Coq.Init.Datatypes <> list ind
+R93:94 Iron.Language.SystemF2.TyBase <> ty ind
+R109:113 Iron.Language.SystemF2.TyEnv <> tyenv def
+def 175:180 <> liftTE
+R193:195 Coq.Lists.List <> map def
+R210:211 Iron.Language.SystemF2.TyEnv <> te var
+R198:203 Iron.Language.SystemF2.TyLift <> liftTT def
+R207:207 Iron.Language.SystemF2.TyEnv <> d var
+R226:231 Iron.Language.SystemF2.TyEnv <> liftTE def
+def 296:302 <> substTE
+R314:316 Coq.Lists.List <> map def
+R332:333 Iron.Language.SystemF2.TyEnv <> te var
+R319:325 Iron.Language.SystemF2.TySubst <> substTT def
+R329:329 Iron.Language.SystemF2.TyEnv <> t var
+R327:327 Iron.Language.SystemF2.TyEnv <> d var
+R348:354 Iron.Language.SystemF2.TyEnv <> substTE def
+prf 436:448 <> length_liftTE
+R479:481 Coq.Init.Logic <> :type_scope:x_'='_x not
+R470:475 Coq.Init.Datatypes <> length def
+R477:478 Iron.Language.SystemF2.TyEnv <> te var
+R482:487 Coq.Init.Datatypes <> length def
+R490:495 Iron.Language.SystemF2.TyEnv <> liftTE def
+R499:500 Iron.Language.SystemF2.TyEnv <> te var
+R497:497 Iron.Language.SystemF2.TyEnv <> d var
+prf 616:628 <> liftTE_liftTE
+R695:700 Coq.Init.Logic <> :type_scope:x_'='_x not
+R653:658 Iron.Language.SystemF2.TyEnv <> liftTE def
+R676:681 Iron.Language.SystemF2.TyEnv <> liftTE def
+R692:693 Iron.Language.SystemF2.TyEnv <> te var
+R685:687 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R684:684 Iron.Language.SystemF2.TyEnv <> n var
+R688:689 Iron.Language.SystemF2.TyEnv <> n' var
+R660:660 Iron.Language.SystemF2.TyEnv <> n var
+R701:706 Iron.Language.SystemF2.TyEnv <> liftTE def
+R724:729 Iron.Language.SystemF2.TyEnv <> liftTE def
+R733:734 Iron.Language.SystemF2.TyEnv <> te var
+R731:731 Iron.Language.SystemF2.TyEnv <> n var
+R710:713 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R720:720 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R715:717 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R714:714 Iron.Language.SystemF2.TyEnv <> n var
+R718:719 Iron.Language.SystemF2.TyEnv <> n' var
+R783:788 Iron.Language.SystemF2.TyEnv <> liftTE def
+R808:823 Iron.Language.SystemF2.TyLift <> liftTT_liftTT_11 thm
+R808:823 Iron.Language.SystemF2.TyLift <> liftTT_liftTT_11 thm
+prf 845:858 <> substTE_liftTE
+R909:911 Coq.Init.Logic <> :type_scope:x_'='_x not
+R883:889 Iron.Language.SystemF2.TyEnv <> substTE def
+R897:902 Iron.Language.SystemF2.TyEnv <> liftTE def
+R906:907 Iron.Language.SystemF2.TyEnv <> te var
+R904:904 Iron.Language.SystemF2.TyEnv <> d var
+R893:894 Iron.Language.SystemF2.TyEnv <> t2 var
+R891:891 Iron.Language.SystemF2.TyEnv <> d var
+R912:913 Iron.Language.SystemF2.TyEnv <> te var
+R940:946 Iron.Language.SystemF2.TyEnv <> substTE def
+R956:961 Iron.Language.SystemF2.TyEnv <> liftTE def
+prf 1013:1026 <> liftTE_substTE
+R1087:1091 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1054:1059 Iron.Language.SystemF2.TyEnv <> liftTE def
+R1064:1070 Iron.Language.SystemF2.TyEnv <> substTE def
+R1084:1085 Iron.Language.SystemF2.TyEnv <> te var
+R1081:1082 Iron.Language.SystemF2.TyEnv <> t2 var
+R1074:1076 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1073:1073 Iron.Language.SystemF2.TyEnv <> n var
+R1077:1078 Iron.Language.SystemF2.TyEnv <> n' var
+R1061:1061 Iron.Language.SystemF2.TyEnv <> n var
+R1092:1098 Iron.Language.SystemF2.TyEnv <> substTE def
+R1130:1135 Iron.Language.SystemF2.TyEnv <> liftTE def
+R1139:1140 Iron.Language.SystemF2.TyEnv <> te var
+R1137:1137 Iron.Language.SystemF2.TyEnv <> n var
+R1114:1119 Iron.Language.SystemF2.TyLift <> liftTT def
+R1125:1126 Iron.Language.SystemF2.TyEnv <> t2 var
+R1123:1123 Iron.Language.SystemF2.TyEnv <> n var
+R1106:1108 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1102:1104 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1105:1105 Iron.Language.SystemF2.TyEnv <> n var
+R1109:1110 Iron.Language.SystemF2.TyEnv <> n' var
+R1188:1194 Iron.Language.SystemF2.TyEnv <> substTE def
+R1204:1209 Iron.Language.SystemF2.TyEnv <> liftTE def
+R1230:1243 Iron.Language.SystemF2.TySubst <> liftTT_substTT thm
+R1230:1243 Iron.Language.SystemF2.TySubst <> liftTT_substTT thm
+R1256:1261 Iron.Language.SystemF2.TyEnv <> liftTE def
+R1283:1289 Iron.Language.SystemF2.TyEnv <> substTE def
+prf 1333:1349 <> liftTE_closedT_id
+R1404:1406 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1393:1398 Iron.Language.SystemF2.TyEnv <> liftTE def
+R1402:1403 Iron.Language.SystemF2.TyEnv <> se var
+R1400:1400 Iron.Language.SystemF2.TyEnv <> n var
+R1407:1408 Iron.Language.SystemF2.TyEnv <> se var
+R1371:1376 Coq.Lists.List <> Forall ind
+R1386:1387 Iron.Language.SystemF2.TyEnv <> se var
+R1378:1384 Iron.Language.SystemF2.TyBase <> closedT def
+R1435:1440 Iron.Language.SystemF2.TyEnv <> liftTE def
+R1503:1505 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1491:1496 Iron.Language.SystemF2.TyLift <> liftTT def
+R1503:1505 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1491:1496 Iron.Language.SystemF2.TyLift <> liftTT def
+R1536:1552 Iron.Language.SystemF2.TyEnv <> liftTE_closedT_id thm
+prf 1563:1580 <> substTE_closedT_id
+R1642:1644 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1627:1633 Iron.Language.SystemF2.TyEnv <> substTE def
+R1640:1641 Iron.Language.SystemF2.TyEnv <> se var
+R1637:1638 Iron.Language.SystemF2.TyEnv <> t2 var
+R1635:1635 Iron.Language.SystemF2.TyEnv <> n var
+R1645:1646 Iron.Language.SystemF2.TyEnv <> se var
+R1605:1610 Coq.Lists.List <> Forall ind
+R1620:1621 Iron.Language.SystemF2.TyEnv <> se var
+R1612:1618 Iron.Language.SystemF2.TyBase <> closedT def
+R1673:1679 Iron.Language.SystemF2.TyEnv <> substTE def
+R1744:1746 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1730:1736 Iron.Language.SystemF2.TySubst <> substTT def
+R1744:1746 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1730:1736 Iron.Language.SystemF2.TySubst <> substTT def
+R1777:1794 Iron.Language.SystemF2.TyEnv <> substTE_closedT_id thm

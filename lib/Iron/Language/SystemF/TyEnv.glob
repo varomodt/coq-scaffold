@@ -1,0 +1,86 @@
+DIGEST 9aca767e8ee662acdd7c2db2fa91b100
+FIron.Language.SystemF.TyEnv
+R16:39 Iron.Language.SystemF.Ty <> <> lib
+def 78:82 <> tyenv
+R87:90 Coq.Init.Datatypes <> list ind
+R92:93 Iron.Language.SystemF.Ty <> ty ind
+R108:112 Iron.Language.SystemF.TyEnv <> tyenv def
+def 174:179 <> liftTE
+R192:194 Coq.Lists.List <> map def
+R207:208 Iron.Language.SystemF.TyEnv <> te var
+R197:202 Iron.Language.SystemF.Ty <> liftTT def
+R204:204 Iron.Language.SystemF.TyEnv <> d var
+R223:228 Iron.Language.SystemF.TyEnv <> liftTE def
+def 294:300 <> substTE
+R312:314 Coq.Lists.List <> map def
+R330:331 Iron.Language.SystemF.TyEnv <> te var
+R317:323 Iron.Language.SystemF.Ty <> substTT def
+R327:327 Iron.Language.SystemF.TyEnv <> t var
+R325:325 Iron.Language.SystemF.TyEnv <> d var
+R346:352 Iron.Language.SystemF.TyEnv <> substTE def
+prf 560:572 <> liftTE_liftTE
+R639:644 Coq.Init.Logic <> :type_scope:x_'='_x not
+R597:602 Iron.Language.SystemF.TyEnv <> liftTE def
+R620:625 Iron.Language.SystemF.TyEnv <> liftTE def
+R636:637 Iron.Language.SystemF.TyEnv <> te var
+R629:631 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R628:628 Iron.Language.SystemF.TyEnv <> n var
+R632:633 Iron.Language.SystemF.TyEnv <> n' var
+R604:604 Iron.Language.SystemF.TyEnv <> n var
+R645:650 Iron.Language.SystemF.TyEnv <> liftTE def
+R668:673 Iron.Language.SystemF.TyEnv <> liftTE def
+R677:678 Iron.Language.SystemF.TyEnv <> te var
+R675:675 Iron.Language.SystemF.TyEnv <> n var
+R654:657 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R664:664 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R659:661 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R658:658 Iron.Language.SystemF.TyEnv <> n var
+R662:663 Iron.Language.SystemF.TyEnv <> n' var
+R730:735 Iron.Language.SystemF.TyEnv <> liftTE def
+R756:768 Iron.Language.SystemF.Ty <> liftTT_liftTT thm
+R756:768 Iron.Language.SystemF.Ty <> liftTT_liftTT thm
+R781:786 Iron.Language.SystemF.TyEnv <> liftTE def
+prf 830:843 <> substTE_liftTE
+R894:896 Coq.Init.Logic <> :type_scope:x_'='_x not
+R868:874 Iron.Language.SystemF.TyEnv <> substTE def
+R882:887 Iron.Language.SystemF.TyEnv <> liftTE def
+R891:892 Iron.Language.SystemF.TyEnv <> te var
+R889:889 Iron.Language.SystemF.TyEnv <> d var
+R878:879 Iron.Language.SystemF.TyEnv <> t2 var
+R876:876 Iron.Language.SystemF.TyEnv <> d var
+R897:898 Iron.Language.SystemF.TyEnv <> te var
+R925:931 Iron.Language.SystemF.TyEnv <> substTE def
+R942:947 Iron.Language.SystemF.TyEnv <> liftTE def
+R959:965 Coq.Lists.List <> map_map thm
+R959:965 Coq.Lists.List <> map_map thm
+R1012:1018 Coq.Program.Basics <> compose def
+R1029:1042 Iron.Language.SystemF.Ty <> substTT_liftTT thm
+R1029:1042 Iron.Language.SystemF.Ty <> substTT_liftTT thm
+R1055:1061 Coq.Program.Basics <> compose def
+prf 1105:1118 <> liftTE_substTE
+R1179:1183 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1146:1151 Iron.Language.SystemF.TyEnv <> liftTE def
+R1156:1162 Iron.Language.SystemF.TyEnv <> substTE def
+R1176:1177 Iron.Language.SystemF.TyEnv <> te var
+R1173:1174 Iron.Language.SystemF.TyEnv <> t2 var
+R1166:1168 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1165:1165 Iron.Language.SystemF.TyEnv <> n var
+R1169:1170 Iron.Language.SystemF.TyEnv <> n' var
+R1153:1153 Iron.Language.SystemF.TyEnv <> n var
+R1184:1190 Iron.Language.SystemF.TyEnv <> substTE def
+R1220:1225 Iron.Language.SystemF.TyEnv <> liftTE def
+R1229:1230 Iron.Language.SystemF.TyEnv <> te var
+R1227:1227 Iron.Language.SystemF.TyEnv <> n var
+R1206:1211 Iron.Language.SystemF.Ty <> liftTT def
+R1215:1216 Iron.Language.SystemF.TyEnv <> t2 var
+R1213:1213 Iron.Language.SystemF.TyEnv <> n var
+R1198:1200 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1194:1196 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R1197:1197 Iron.Language.SystemF.TyEnv <> n var
+R1201:1202 Iron.Language.SystemF.TyEnv <> n' var
+R1281:1287 Iron.Language.SystemF.TyEnv <> substTE def
+R1297:1302 Iron.Language.SystemF.TyEnv <> liftTE def
+R1323:1336 Iron.Language.SystemF.Ty <> liftTT_substTT thm
+R1323:1336 Iron.Language.SystemF.Ty <> liftTT_substTT thm
+R1349:1354 Iron.Language.SystemF.TyEnv <> liftTE def
+R1375:1381 Iron.Language.SystemF.TyEnv <> substTE def

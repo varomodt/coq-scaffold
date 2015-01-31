@@ -1,0 +1,50 @@
+DIGEST f34b92adf0d61420351b24722f1a9766
+FIron.Language.SystemF2Data.Type.Exp.TyCon
+R16:46 Iron.Language.SystemF2Data.Base <> <> lib
+R64:94 Iron.Language.SystemF2Data.Kind <> <> lib
+ind 205:209 <> tycon
+constr 262:269 <> TyConFun
+constr 320:327 <> TyConNat
+constr 341:349 <> TyConBool
+constr 394:402 <> TyConData
+R274:278 Iron.Language.SystemF2Data.Type.Exp.TyCon <> tycon ind
+R332:336 Iron.Language.SystemF2Data.Type.Exp.TyCon <> tycon ind
+R353:357 Iron.Language.SystemF2Data.Type.Exp.TyCon <> tycon ind
+R421:425 Iron.Language.SystemF2Data.Type.Exp.TyCon <> tycon ind
+R415:416 Iron.Language.SystemF2Data.Kind.Base <> ki ind
+R406:408 Coq.Init.Datatypes <> nat ind
+R446:450 Iron.Language.SystemF2Data.Type.Exp.TyCon <> tycon ind
+def 500:505 <> tcUnit
+R510:518 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConData constr
+R522:526 Iron.Language.SystemF2Data.Kind.Base <> KStar constr
+R541:546 Iron.Language.SystemF2Data.Type.Exp.TyCon <> tcUnit def
+def 684:692 <> tycon_beq
+R714:715 Iron.Language.SystemF2Data.Type.Exp.TyCon <> t2 var
+R710:711 Iron.Language.SystemF2Data.Type.Exp.TyCon <> t1 var
+R725:732 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConFun constr
+R741:748 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConFun constr
+R759:762 Coq.Init.Datatypes <> true constr
+R767:774 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConNat constr
+R783:790 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConNat constr
+R801:804 Coq.Init.Datatypes <> true constr
+R809:817 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConBool constr
+R825:833 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConBool constr
+R843:846 Coq.Init.Datatypes <> true constr
+R851:859 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConData constr
+R867:875 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConData constr
+R885:891 Coq.Arith.EqNat <> beq_nat def
+R936:940 Coq.Init.Datatypes <> false constr
+def 1020:1029 <> isTyConFun
+R1037:1041 Iron.Language.SystemF2Data.Type.Exp.TyCon <> tycon ind
+R1061:1062 Iron.Language.SystemF2Data.Type.Exp.TyCon <> tc var
+R1072:1079 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConFun constr
+R1089:1092 Coq.Init.Logic <> True ind
+R1114:1118 Coq.Init.Logic <> False ind
+R1138:1147 Iron.Language.SystemF2Data.Type.Exp.TyCon <> isTyConFun def
+def 1283:1293 <> isTyConData
+R1300:1304 Iron.Language.SystemF2Data.Type.Exp.TyCon <> tycon ind
+R1324:1325 Iron.Language.SystemF2Data.Type.Exp.TyCon <> tc var
+R1335:1343 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConData constr
+R1352:1355 Coq.Init.Logic <> True ind
+R1377:1381 Coq.Init.Logic <> False ind
+R1401:1411 Iron.Language.SystemF2Data.Type.Exp.TyCon <> isTyConData def

@@ -1,0 +1,39 @@
+DIGEST 019feda3d93964ced192917dd0a4a931
+FIron.Language.SystemF2Data.Type.Exp
+R16:46 Iron.Language.SystemF2Data.Base <> <> lib
+R64:94 Iron.Language.SystemF2Data.Kind <> <> lib
+R112:152 Iron.Language.SystemF2Data.Type.Exp.TyCon <> <> lib
+ind 191:192 <> ty
+constr 208:211 <> TCon
+constr 235:238 <> TVar
+constr 262:268 <> TForall
+constr 289:292 <> TApp
+R229:230 Iron.Language.SystemF2Data.Type.Exp <> ty ind
+R220:224 Iron.Language.SystemF2Data.Type.Exp.TyCon <> tycon ind
+R256:257 Iron.Language.SystemF2Data.Type.Exp <> ty ind
+R247:249 Coq.Init.Datatypes <> nat ind
+R283:284 Iron.Language.SystemF2Data.Type.Exp <> ty ind
+R274:275 Iron.Language.SystemF2Data.Type.Exp <> ty ind
+R316:317 Iron.Language.SystemF2Data.Type.Exp <> ty ind
+R310:311 Iron.Language.SystemF2Data.Type.Exp <> ty ind
+R301:302 Iron.Language.SystemF2Data.Type.Exp <> ty ind
+R338:339 Iron.Language.SystemF2Data.Type.Exp <> ty ind
+def 379:383 <> tUnit
+R390:393 Iron.Language.SystemF2Data.Type.Exp <> TCon constr
+R395:400 Iron.Language.SystemF2Data.Type.Exp.TyCon <> tcUnit def
+def 415:418 <> tFun
+R425:426 Iron.Language.SystemF2Data.Type.Exp <> ty ind
+R434:435 Iron.Language.SystemF2Data.Type.Exp <> ty ind
+R442:445 Iron.Language.SystemF2Data.Type.Exp <> TApp constr
+R473:474 Iron.Language.SystemF2Data.Type.Exp <> t2 var
+R448:451 Iron.Language.SystemF2Data.Type.Exp <> TApp constr
+R469:470 Iron.Language.SystemF2Data.Type.Exp <> t1 var
+R454:457 Iron.Language.SystemF2Data.Type.Exp <> TCon constr
+R459:466 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConFun constr
+R489:492 Iron.Language.SystemF2Data.Type.Exp <> tFun def
+def 507:510 <> tNat
+R516:519 Iron.Language.SystemF2Data.Type.Exp <> TCon constr
+R521:528 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConNat constr
+def 543:547 <> tBool
+R553:556 Iron.Language.SystemF2Data.Type.Exp <> TCon constr
+R558:566 Iron.Language.SystemF2Data.Type.Exp.TyCon <> TyConBool constr

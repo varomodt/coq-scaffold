@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/Users/rsloan/Development/sumo/receiver-base/src/main/scala/com/sumologic/scala/receiver/timestamp'
+let g:netrw_dirhist_2='/Users/rsloan/Development/sumo/ops/deployments'
+let g:netrw_dirhist_3='/Users/rsloan/Development/sumo/boss/src/main/resources/templates/ssh'
+let g:netrw_dirhist_4='/Users/rsloan/Development/sumo/system/target/failsafe-reports'
+let g:netrw_dirhist_5='/Users/rsloan/.terminfo'
+let g:netrw_dirhist_6='/Users/rsloan/Development/mcscala'
+let g:netrw_dirhist_7='/Users/rsloan/Development/proofs/lib/dotvim'

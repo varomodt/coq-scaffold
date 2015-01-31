@@ -1,0 +1,9 @@
+DIGEST 8add677d10426962db2e5e7abf6b518d
+FIron.Language.SystemF2Store.Base
+R16:29 Iron.Data.List <> <> lib
+R47:59 Iron.Data.Nat <> <> lib
+R77:85 Iron.Norm <> <> lib
+R103:114 Iron.Tactics <> <> lib
+R132:144 Coq.Bool.Bool <> <> lib
+R162:182 Coq.Arith.Compare_dec <> <> lib
+R200:233 Coq.Logic.FunctionalExtensionality <> <> lib

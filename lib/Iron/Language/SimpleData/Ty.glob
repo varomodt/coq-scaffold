@@ -1,0 +1,26 @@
+DIGEST 5720b6113069091c487a5f43e17a6671
+FIron.Language.SimpleData.Ty
+R16:44 Iron.Language.SimpleData.Base <> <> lib
+ind 83:87 <> tycon
+constr 102:110 <> TyConData
+R123:127 Iron.Language.SimpleData.Ty <> tycon ind
+R116:118 Coq.Init.Datatypes <> nat ind
+R148:152 Iron.Language.SimpleData.Ty <> tycon ind
+def 166:174 <> tycon_beq
+R197:198 Iron.Language.SimpleData.Ty <> t2 var
+R193:194 Iron.Language.SimpleData.Ty <> t1 var
+R209:217 Iron.Language.SimpleData.Ty <> TyConData constr
+R223:231 Iron.Language.SimpleData.Ty <> TyConData constr
+R239:245 Coq.Arith.EqNat <> beq_nat def
+ind 284:285 <> ty
+constr 300:303 <> TCon
+constr 324:327 <> TFun
+R318:319 Iron.Language.SimpleData.Ty <> ty ind
+R309:313 Iron.Language.SimpleData.Ty <> tycon ind
+R348:349 Iron.Language.SimpleData.Ty <> ty ind
+R342:343 Iron.Language.SimpleData.Ty <> ty ind
+R333:334 Iron.Language.SimpleData.Ty <> ty ind
+R370:371 Iron.Language.SimpleData.Ty <> ty ind
+def 411:415 <> tyenv
+R420:423 Coq.Init.Datatypes <> list ind
+R425:426 Iron.Language.SimpleData.Ty <> ty ind

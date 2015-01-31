@@ -1,0 +1,114 @@
+DIGEST d8b7ad33947638340e3dc8f915252b4d
+FIron.Language.SystemF2Data.Type.Relation.WfT
+R16:50 Iron.Language.SystemF2Data.Type.Exp <> <> lib
+ind 205:207 <> wfT
+constr 238:245 <> WfT_TVar
+constr 305:312 <> WfT_TCon
+constr 355:365 <> WfT_TForall
+constr 430:437 <> WfT_TApp
+R214:216 Coq.Init.Datatypes <> nat ind
+R221:222 Iron.Language.SystemF2Data.Type.Exp <> ty ind
+R284:286 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R292:295 Iron.Language.SystemF2Data.Type.Exp <> TVar constr
+R297:298 Iron.Language.SystemF2Data.Type.Relation.WfT <> ki var
+R272:274 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R270:271 Iron.Language.SystemF2Data.Type.Relation.WfT <> ki var
+R335:337 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R343:346 Iron.Language.SystemF2Data.Type.Exp <> TCon constr
+R348:348 Iron.Language.SystemF2Data.Type.Relation.WfT <> n var
+R407:409 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R415:421 Iron.Language.SystemF2Data.Type.Exp <> TForall constr
+R423:423 Iron.Language.SystemF2Data.Type.Relation.WfT <> t var
+R388:390 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R399:399 Iron.Language.SystemF2Data.Type.Relation.WfT <> t var
+R393:393 Coq.Init.Datatypes <> S constr
+R493:495 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R501:504 Iron.Language.SystemF2Data.Type.Exp <> TApp constr
+R509:510 Iron.Language.SystemF2Data.Type.Relation.WfT <> t2 var
+R506:507 Iron.Language.SystemF2Data.Type.Relation.WfT <> t1 var
+R477:479 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R484:485 Iron.Language.SystemF2Data.Type.Relation.WfT <> t2 var
+R464:466 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R471:472 Iron.Language.SystemF2Data.Type.Relation.WfT <> t1 var
+R532:534 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+def 613:619 <> closedT
+R623:624 Iron.Language.SystemF2Data.Type.Exp <> ty ind
+R638:640 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R642:642 Coq.Init.Datatypes <> O constr
+R657:663 Iron.Language.SystemF2Data.Type.Relation.WfT <> closedT def
+prf 745:752 <> wfT_succ
+R793:795 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R804:805 Iron.Language.SystemF2Data.Type.Relation.WfT <> t1 var
+R798:798 Coq.Init.Datatypes <> S constr
+R800:801 Iron.Language.SystemF2Data.Type.Relation.WfT <> tn var
+R775:777 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R786:787 Iron.Language.SystemF2Data.Type.Relation.WfT <> t1 var
+R779:780 Iron.Language.SystemF2Data.Type.Relation.WfT <> tn var
+R891:898 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT_succ thm
+prf 909:916 <> wfT_more
+R974:976 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R982:983 Iron.Language.SystemF2Data.Type.Relation.WfT <> tt var
+R978:980 Iron.Language.SystemF2Data.Type.Relation.WfT <> tn2 var
+R959:961 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R967:968 Iron.Language.SystemF2Data.Type.Relation.WfT <> tt var
+R963:965 Iron.Language.SystemF2Data.Type.Relation.WfT <> tn1 var
+R947:950 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R944:946 Iron.Language.SystemF2Data.Type.Relation.WfT <> tn1 var
+R951:953 Iron.Language.SystemF2Data.Type.Relation.WfT <> tn2 var
+R1075:1082 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT_more thm
+prf 1093:1099 <> wfT_max
+R1142:1144 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R1160:1161 Iron.Language.SystemF2Data.Type.Relation.WfT <> tt var
+R1147:1149 Coq.Init.Peano <> max def
+R1155:1157 Iron.Language.SystemF2Data.Type.Relation.WfT <> tn2 var
+R1151:1153 Iron.Language.SystemF2Data.Type.Relation.WfT <> tn1 var
+R1127:1129 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R1135:1136 Iron.Language.SystemF2Data.Type.Relation.WfT <> tt var
+R1131:1133 Iron.Language.SystemF2Data.Type.Relation.WfT <> tn1 var
+R1191:1191 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1225:1239 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1273:1273 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1192:1192 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1203:1207 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1196:1199 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1219:1221 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1208:1210 Coq.Init.Peano <> max def
+R1240:1240 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1251:1255 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1244:1247 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R1267:1269 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1256:1258 Coq.Init.Peano <> max def
+R1191:1191 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1225:1239 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1273:1273 Coq.Init.Logic <> :type_scope:x_'\/'_x not
+R1192:1192 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1203:1207 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1196:1199 Coq.Init.Peano <> :nat_scope:x_'<'_x not
+R1219:1221 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1208:1210 Coq.Init.Peano <> max def
+R1240:1240 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1251:1255 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R1244:1247 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R1267:1269 Coq.Init.Logic <> :type_scope:x_'='_x not
+R1256:1258 Coq.Init.Peano <> max def
+R1286:1297 Coq.Arith.Max <> max_spec def
+R1286:1297 Coq.Arith.Max <> max_spec def
+R1344:1351 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT_more thm
+R1344:1351 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT_more thm
+R1421:1427 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT_max thm
+prf 1438:1447 <> wfT_exists
+R1468:1474 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R1477:1478 Iron.Tactics.LibTactics <> :type_scope:'exists'_x_','_x not
+R1479:1481 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT ind
+R1486:1487 Iron.Language.SystemF2Data.Type.Relation.WfT <> t1 var
+R1585:1585 Coq.Init.Datatypes <> S constr
+R1585:1585 Coq.Init.Datatypes <> S constr
+R1641:1651 Iron.Language.SystemF2Data.Type.Relation.WfT <> WfT_TForall constr
+R1641:1651 Iron.Language.SystemF2Data.Type.Relation.WfT <> WfT_TForall constr
+R1747:1749 Coq.Init.Peano <> max def
+R1747:1749 Coq.Init.Peano <> max def
+R1771:1778 Iron.Language.SystemF2Data.Type.Relation.WfT <> WfT_TApp constr
+R1771:1778 Iron.Language.SystemF2Data.Type.Relation.WfT <> WfT_TApp constr
+R1805:1816 Coq.Arith.Max <> max_comm def
+R1805:1816 Coq.Arith.Max <> max_comm def
+R1844:1853 Iron.Language.SystemF2Data.Type.Relation.WfT <> wfT_exists thm

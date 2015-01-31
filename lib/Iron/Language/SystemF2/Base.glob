@@ -1,0 +1,7 @@
+DIGEST d943cdc9b26941b930b59006e7b9f52b
+FIron.Language.SystemF2.Base
+R16:29 Iron.Data.List <> <> lib
+R47:59 Iron.Data.Nat <> <> lib
+R77:85 Iron.Norm <> <> lib
+R103:114 Iron.Tactics <> <> lib
+R132:152 Coq.Arith.Compare_dec <> <> lib

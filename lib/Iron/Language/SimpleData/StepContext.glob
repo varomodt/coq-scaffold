@@ -1,0 +1,38 @@
+DIGEST 8eb9ab14a58d82dcf75a394dc84393e4
+FIron.Language.SimpleData.StepContext
+R16:43 Iron.Language.SimpleData.Exp <> <> lib
+R61:77 Iron.Data.Context <> <> lib
+R95:109 Iron.Data.Chain <> <> lib
+ind 351:357 <> exp_ctx
+constr 446:450 <> XcTop
+constr 514:519 <> XcApp1
+constr 666:671 <> XcApp2
+constr 906:910 <> XcCon
+constr 1064:1069 <> XcCase
+R369:371 Iron.Language.SimpleData.ExpBase <> exp ind
+R362:364 Iron.Language.SimpleData.ExpBase <> exp ind
+R458:464 Iron.Language.SimpleData.StepContext <> exp_ctx ind
+R477:477 Iron.Language.SimpleData.StepContext <> x var
+R543:549 Iron.Language.SimpleData.StepContext <> exp_ctx ind
+R563:566 Iron.Language.SimpleData.ExpBase <> XApp constr
+R571:572 Iron.Language.SimpleData.StepContext <> x2 var
+R568:569 Iron.Language.SimpleData.StepContext <> xx var
+R711:717 Iron.Language.SimpleData.StepContext <> exp_ctx ind
+R731:734 Iron.Language.SimpleData.ExpBase <> XApp constr
+R739:740 Iron.Language.SimpleData.StepContext <> xx var
+R736:737 Iron.Language.SimpleData.StepContext <> v1 var
+R696:700 Iron.Language.SimpleData.Exp <> value ind
+R702:703 Iron.Language.SimpleData.StepContext <> v1 var
+R960:966 Iron.Language.SimpleData.StepContext <> exp_ctx ind
+R980:983 Iron.Language.SimpleData.ExpBase <> XCon constr
+R989:989 Iron.Language.SimpleData.StepContext <> C var
+R991:992 Iron.Language.SimpleData.StepContext <> xx var
+R985:986 Iron.Language.SimpleData.StepContext <> dc var
+R937:944 Iron.Data.Context <> exps_ctx ind
+R951:951 Iron.Language.SimpleData.StepContext <> C var
+R946:949 Iron.Language.SimpleData.Exp <> wnfX ind
+R1095:1101 Iron.Language.SimpleData.StepContext <> exp_ctx ind
+R1115:1119 Iron.Language.SimpleData.ExpBase <> XCase constr
+R1124:1127 Iron.Language.SimpleData.StepContext <> alts var
+R1121:1122 Iron.Language.SimpleData.StepContext <> xx var
+R1150:1156 Iron.Language.SimpleData.StepContext <> exp_ctx ind

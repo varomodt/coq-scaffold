@@ -1,0 +1,8 @@
+DIGEST d85609f7011316432a6aee05ccc96c27
+FIron.Tactics.Rip
+R16:33 Iron.Tactics.Short <> <> lib
+R51:73 Iron.Tactics.LibTactics <> <> lib
+R327:330 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R327:330 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R369:372 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R369:372 Coq.Init.Logic <> :type_scope:x_'/\'_x not
